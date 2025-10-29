@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:text="Esta dose está muito atrasada. Ao confirmar, você pode optar por reajustar os horários das próximas doses com base na hora atual."/>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switchReschedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Reagendar próximas doses"
+        android:textAppearance="?attr/textAppearanceBodyLarge"
+        android:checked="true"/>
+
+</LinearLayout>

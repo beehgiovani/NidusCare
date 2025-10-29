@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="com.google.android.material.card.MaterialCardView">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Permissões do Dependente"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCanRegisterDose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Registrar Doses"
+        android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCanRegisterNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Registrar Anotações de Saúde"
+        android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCanSeeDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Visualizar Documentos"
+        android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCanAddDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="Adicionar/Editar Documentos"
+        android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCanSeeAgenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
+        android:text="Visualizar Agenda"
+        android:textAppearance="?attr/textAppearanceBodyLarge" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="@drawable/dialog_background_blue_modern"
+    android:elevation="12dp">
+
+    <!-- Animação Lottie com foco no centro -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="20dp"
+        app:lottie_rawRes="@raw/loading_animation"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true" />
+
+    <!-- Texto com tipografia e contraste suaves -->
+    <TextView
+        android:id="@+id/textViewLoadingMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processando..."
+        android:textAppearance="?attr/textAppearanceTitleMedium"
+        android:textColor="@color/md_theme_onPrimary"
+        android:textSize="18sp"
+        android:shadowColor="@color/semi_transparent_black"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

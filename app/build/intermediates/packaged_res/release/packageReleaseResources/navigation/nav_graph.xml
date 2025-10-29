@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+
+    <action
+        android:id="@+id/action_global_to_hydrationTrackerFragment"
+        app:destination="@id/hydrationTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <fragment
+        android:id="@+id/hydrationTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.hydration.HydrationTrackerFragment"
+        android:label="Acompanhamento de Hidratação"
+        tools:layout="@layout/fragment_hydration_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_to_mealTrackerFragment"
+        app:destination="@id/mealTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <fragment
+        android:id="@+id/mealTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.meals.MealTrackerFragment"
+        android:label="Acompanhamento de Refeições"
+        tools:layout="@layout/fragment_meal_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_to_weightTrackerFragment"
+        app:destination="@id/weightTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <fragment
+        android:id="@+id/weightTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.weight.WeightTrackerFragment"
+        android:label="Acompanhamento de Peso"
+        tools:layout="@layout/fragment_weight_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_to_physicalActivityTrackerFragment"
+        app:destination="@id/physicalActivityTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <fragment
+        android:id="@+id/physicalActivityTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.activities.PhysicalActivityTrackerFragment"
+        android:label="Acompanhamento de Atividades"
+        tools:layout="@layout/fragment_physical_activity_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+
+    <action
+        android:id="@+id/action_global_to_sleepTrackerFragment"
+        app:destination="@id/sleepTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <fragment
+        android:id="@+id/sleepTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.sleep.SleepTrackerFragment"
+        android:label="Acompanhamento de Sono"
+        tools:layout="@layout/fragment_sleep_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_global_to_pharmacySelectionFragment"
+        app:destination="@id/pharmacySelectionFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+
+    <action
+        android:id="@+id/action_global_to_healthGoalsFragment"
+        app:destination="@id/healthGoalsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_splashFragment_to_dashboardDependenteFragment"
+        app:destination="@id/dashboardDependenteFragment"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popUpTo="@id/splashFragment"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_global_to_wellbeingDiaryFragment"
+        app:destination="@id/wellbeingDiaryFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_geriatricCareFragment"
+        app:destination="@id/geriatricCareFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_chatFragment"
+        app:destination="@id/chatFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+
+    <action
+        android:id="@+id/action_global_to_vaccinationCardFragment"
+        app:destination="@id/vaccinationCardFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+
+    <action
+        android:id="@+id/action_global_to_educationCenterFragment"
+        app:destination="@id/educationCenterFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+
+    <action
+        android:id="@+id/action_global_to_dependentDiaryFragment"
+        app:destination="@id/dependentDiaryFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_achievementsFragment"
+        app:destination="@id/achievementsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_global_to_adherenceReportFragment"
+        app:destination="@id/adherenceReportFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_global_to_cycleTrackerFragment"
+        app:destination="@id/cycleTrackerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_loginFragment_to_completeProfileFragment"
+        app:destination="@id/completeProfileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+
+    <action
+        android:id="@+id/action_global_to_completeProfileFragment"
+        app:destination="@id/completeProfileFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"/>
+    <action
+        android:id="@+id/action_global_to_addEditDependentFragment"
+        app:destination="@id/addEditDependentFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependente"
+            app:argType="com.developersbeeh.medcontrol.data.model.Dependente"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_prescriptionScannerFragment"
+        app:destination="@id/prescriptionScannerFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_analysisResultFragment"
+        app:destination="@id/analysisResultFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="prompt"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="analysisResult"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_manageFamilyFragment"
+        app:destination="@id/manageFamilyFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_to_archivedMedicationsFragment"
+        app:destination="@id/archivedMedicationsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_reportsFragment"
+        app:destination="@id/reportsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_farmacinhaFragment"
+        app:destination="@id/farmacinhaFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_manageCaregiversFragment"
+        app:destination="@id/manageCaregiversFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependente"
+            app:argType="com.developersbeeh.medcontrol.data.model.Dependente"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </action>
+
+    <action
+        android:id="@+id/action_global_to_healthScheduleFragment"
+        app:destination="@id/healthScheduleFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_to_premiumPlansFragment"
+        app:destination="@id/premiumPlansFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_logout"
+        app:destination="@id/roleSelectionFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out" />
+    <action
+        android:id="@+id/action_global_to_dashboard"
+        app:destination="@id/caregiverDashboardFragment"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out" />
+    <action
+        android:id="@+id/action_global_to_medications"
+        app:destination="@id/listMedicamentosFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="isCaregiver"
+            app:argType="boolean"
+            android:defaultValue="true" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_reminders"
+        app:destination="@id/remindersFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_health_notes"
+        app:destination="@id/healthNotesFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_profile"
+        app:destination="@id/profileFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_to_settings"
+        app:destination="@id/settingsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_to_analytics"
+        app:destination="@id/medicationAnalyticsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_doseHistoryFragment"
+        app:destination="@id/doseHistoryFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_addMedicamentoFragment"
+        app:destination="@id/addMedicamentoFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right" />
+    <action
+        android:id="@+id/action_global_to_timelineFragment"
+        app:destination="@id/timelineFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+    <action
+        android:id="@+id/action_global_to_healthDocumentsFragment"
+        app:destination="@id/healthDocumentsFragment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </action>
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.developersbeeh.medcontrol.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_roleSelectionFragment"
+            app:destination="@id/roleSelectionFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_splashFragment_to_caregiverDashboardFragment"
+            app:destination="@id/caregiverDashboardFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_splashFragment_to_dashboardDependenteFragment"
+            app:destination="@id/dashboardDependenteFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_onboardingFragment"
+            app:destination="@id/onboardingFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.developersbeeh.medcontrol.ui.onboarding.OnboardingFragment"
+        android:label="Bem-vindo ao NidusCare"
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/action_onboardingFragment_to_roleSelectionFragment"
+            app:destination="@id/roleSelectionFragment"
+            app:popUpTo="@id/onboardingFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/roleSelectionFragment"
+        android:name="com.developersbeeh.medcontrol.ui.role.RoleSelectionFragment"
+        android:label="Bem-vindo"
+        tools:layout="@layout/fragment_role_selection">
+        <action
+            android:id="@+id/action_roleSelectionFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_roleSelectionFragment_to_linkDependentFragment"
+            app:destination="@id/linkDependentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.developersbeeh.medcontrol.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_loginFragment_to_caregiverDashboardFragment"
+            app:destination="@id/caregiverDashboardFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_loginFragment_to_completeProfileFragment"
+            app:destination="@id/completeProfileFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.login.RegisterFragment"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_caregiverDashboardFragment"
+            app:destination="@id/caregiverDashboardFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/linkDependentFragment"
+        android:name="com.developersbeeh.medcontrol.ui.dependents.LinkDependentFragment"
+        android:label="Vincular Conta"
+        tools:layout="@layout/fragment_link_dependent">
+        <action
+            android:id="@+id/action_linkDependentFragment_to_dashboardDependenteFragment"
+            app:destination="@id/dashboardDependenteFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/caregiverDashboardFragment"
+        android:name="com.developersbeeh.medcontrol.ui.caregiver.CaregiverDashboardFragment"
+        android:label="Painel do Cuidador"
+        tools:layout="@layout/fragment_caregiver_dashboard">
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_dashboardDependenteFragment"
+            app:destination="@id/dashboardDependenteFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out">
+            <argument
+                android:name="dependentId"
+                app:argType="string" />
+            <argument
+                android:name="dependentName"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_toListMedicamentosFragment"
+            app:destination="@id/listMedicamentosFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_insightsFragment"
+            app:destination="@id/insightsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_addEditDependentFragment"
+            app:destination="@id/addEditDependentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_analysisHistoryFragment"
+            app:destination="@id/analysisHistoryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_manageCaregiversFragment"
+            app:destination="@id/manageCaregiversFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_caregiverDashboardFragment_to_receivedInvitesFragment"
+            app:destination="@id/receivedInvitesFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/manageCaregiversFragment"
+        android:name="com.developersbeeh.medcontrol.ui.caregiver.ManageCaregiversFragment"
+        android:label="Gerenciar Cuidadores"
+        tools:layout="@layout/fragment_manage_caregivers">
+        <argument
+            android:name="dependente"
+            app:argType="com.developersbeeh.medcontrol.data.model.Dependente"
+            app:nullable="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/receivedInvitesFragment"
+        android:name="com.developersbeeh.medcontrol.ui.caregiver.ReceivedInvitesFragment"
+        android:label="Meus Convites"
+        tools:layout="@layout/fragment_received_invites" />
+    <fragment
+        android:id="@+id/addEditDependentFragment"
+        android:name="com.developersbeeh.medcontrol.ui.caregiver.AddEditDependentFragment"
+        android:label="Gerenciar Dependente"
+        tools:layout="@layout/fragment_add_edit_dependent">
+        <argument
+            android:name="dependente"
+            app:argType="com.developersbeeh.medcontrol.data.model.Dependente"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/listMedicamentosFragment"
+        android:name="com.developersbeeh.medcontrol.ui.listmedicamentos.ListMedicamentosFragment"
+        android:label="Medicamentos"
+        tools:layout="@layout/fragment_list_medicamentos">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="isCaregiver"
+            app:argType="boolean"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_addMedicamentoFragment"
+            app:destination="@id/addMedicamentoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_analysisResultFragment"
+            app:destination="@id/analysisResultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_searchMedicamentosFragment"
+            app:destination="@id/searchMedicamentosFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_farmacinhaFragment"
+            app:destination="@id/farmacinhaFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_prescriptionScannerFragment"
+            app:destination="@id/prescriptionScannerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listMedicamentosFragment_to_dependentDiaryFragment"
+            app:destination="@id/dependentDiaryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addMedicamentoFragment"
+        android:name="com.developersbeeh.medcontrol.ui.addmedicamento.AddMedicamentoFragment"
+        android:label="Adicionar Medicamento"
+        tools:layout="@layout/fragment_add_medicamento">
+        <argument
+            android:name="medicamento"
+            app:argType="com.developersbeeh.medcontrol.data.model.Medicamento"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="isCaregiver"
+            app:argType="boolean" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/farmacinhaFragment"
+        android:name="com.developersbeeh.medcontrol.ui.farmacinha.FarmacinhaFragment"
+        android:label="Farmacinha"
+        tools:layout="@layout/fragment_farmacinha">
+        <argument
+            android:name="dependentId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentName"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null"/>
+        <action
+            android:id="@+id/action_farmacinhaFragment_to_addMedicamentoFragment"
+            app:destination="@id/addMedicamentoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/doseHistoryFragment"
+        android:name="com.developersbeeh.medcontrol.ui.dosehistory.DoseHistoryFragment"
+        android:label="Histórico de Doses"
+        tools:layout="@layout/fragment_dose_history">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/medicationAnalyticsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.analytics.MedicationAnalyticsFragment"
+        android:label="Análise de Medicamentos"
+        tools:layout="@layout/fragment_medication_analytics">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthNotesFragment"
+        android:name="com.developersbeeh.medcontrol.ui.healthnotes.HealthNotesFragment"
+        android:label="Anotações de Saúde"
+        tools:layout="@layout/fragment_health_notes">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_healthNotesFragment_to_addHealthNoteFragment"
+            app:destination="@id/addHealthNoteFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_healthNotesFragment_to_healthChartsFragment"
+            app:destination="@id/healthChartsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addHealthNoteFragment"
+        android:name="com.developersbeeh.medcontrol.ui.healthnotes.AddHealthNoteFragment"
+        android:label="Nova Anotação de Saúde"
+        tools:layout="@layout/fragment_add_health_note">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="healthNoteToEdit"
+            app:argType="com.developersbeeh.medcontrol.data.model.HealthNote"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthChartsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.analytics.HealthChartsFragment"
+        android:label="Gráficos de Saúde"
+        tools:layout="@layout/fragment_health_charts">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timelineFragment"
+        android:name="com.developersbeeh.medcontrol.ui.timeline.TimelineFragment"
+        android:label="Linha do Tempo"
+        tools:layout="@layout/fragment_timeline" >
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthDocumentsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.documents.HealthDocumentsFragment"
+        android:label="Documentos de Saúde"
+        tools:layout="@layout/fragment_health_documents">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_healthDocumentsFragment_to_addEditDocumentFragment"
+            app:destination="@id/addEditDocumentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditDocumentFragment"
+        android:name="com.developersbeeh.medcontrol.ui.documents.AddEditDocumentFragment"
+        android:label="Gerenciar Documento"
+        tools:layout="@layout/fragment_add_edit_document">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="documento"
+            app:argType="com.developersbeeh.medcontrol.data.model.DocumentoSaude"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/remindersFragment"
+        android:name="com.developersbeeh.medcontrol.ui.reminders.RemindersFragment"
+        android:label="Lembretes de Saúde"
+        tools:layout="@layout/fragment_reminders">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthScheduleFragment"
+        android:name="com.developersbeeh.medcontrol.ui.schedule.HealthScheduleFragment"
+        android:label="Agenda de Saúde"
+        tools:layout="@layout/fragment_health_schedule">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_healthScheduleFragment_to_addEditScheduleFragment"
+            app:destination="@id/addEditScheduleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditScheduleFragment"
+        android:name="com.developersbeeh.medcontrol.ui.schedule.AddEditScheduleFragment"
+        android:label="Gerenciar Agendamento"
+        tools:layout="@layout/fragment_add_edit_schedule">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="agendamento"
+            app:argType="com.developersbeeh.medcontrol.data.model.AgendamentoSaude"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analysisResultFragment"
+        android:name="com.developersbeeh.medcontrol.ui.analysis.AnalysisResultFragment"
+        android:label="Análise Preditiva"
+        tools:layout="@layout/fragment_analysis_result">
+        <argument
+            android:name="prompt"
+            app:argType="string" />
+        <argument
+            android:name="analysisResult"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/analysisHistoryFragment"
+        android:name="com.developersbeeh.medcontrol.ui.analysis.AnalysisHistoryFragment"
+        android:label="Histórico de Análises"
+        tools:layout="@layout/fragment_analysis_history">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_analysisHistoryFragment_to_analysisResultFragment"
+            app:destination="@id/analysisResultFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.developersbeeh.medcontrol.ui.profile.ProfileFragment"
+        android:label="Meu Perfil"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_profileEditFragment"
+            app:destination="@id/profileEditFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_profileFragment_to_editSelfProfileHealthFragment"
+            app:destination="@id/editSelfProfileHealthFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileEditFragment"
+        android:name="com.developersbeeh.medcontrol.ui.profile.ProfileEditFragment"
+        android:label="Editar Perfil"
+        tools:layout="@layout/fragment_profile_edit" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.settings.SettingsFragment"
+        android:label="Configurações"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/action_settingsFragment_to_notificationSettingsFragment"
+            app:destination="@id/notificationSettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingsFragment_to_privacySettingsFragment"
+            app:destination="@id/privacySettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingsFragment_to_themeSettingsFragment"
+            app:destination="@id/themeSettingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingsFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notificationSettingsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.settings.NotificationSettingsFragment"
+        android:label="Configurações de Notificação"
+        tools:layout="@layout/fragment_notification_settings" />
+    <fragment
+        android:id="@+id/privacySettingsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.settings.PrivacySettingsFragment"
+        android:label="Configurações de Privacidade"
+        tools:layout="@layout/fragment_privacy_settings" />
+    <fragment
+        android:id="@+id/themeSettingsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.settings.ThemeSettingsFragment"
+        android:label="Aparência"
+        tools:layout="@layout/fragment_theme_settings" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.developersbeeh.medcontrol.ui.settings.AboutFragment"
+        android:label="Sobre o App"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/searchMedicamentosFragment"
+        android:name="com.developersbeeh.medcontrol.ui.searchmedicamentos.SearchMedicamentosFragment"
+        android:label="Buscar Medicamentos"
+        tools:layout="@layout/fragment_search_medicamentos">
+        <action
+            android:id="@+id/action_searchMedicamentosFragment_to_medicamentoDetailFragment"
+            app:destination="@id/medicamentoDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/medicamentoDetailFragment"
+        android:name="com.developersbeeh.medcontrol.ui.searchmedicamentos.MedicamentoDetailFragment"
+        android:label="Detalhes do Medicamento"
+        tools:layout="@layout/fragment_medicamento_detail">
+        <argument
+            android:name="medicamento"
+            app:argType="com.developersbeeh.medcontrol.data.model.Medicamento" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/premiumPlansFragment"
+        android:name="com.developersbeeh.medcontrol.ui.premium.PremiumPlansFragment"
+        android:label="Planos Premium"
+        tools:layout="@layout/fragment_premium_plans" />
+
+    <fragment
+        android:id="@+id/prescriptionScannerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.scan.PrescriptionScannerFragment"
+        android:label="Escanear Receita"
+        tools:layout="@layout/fragment_prescription_scanner">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_prescriptionScannerFragment_to_prescriptionAnalysisFragment"
+            app:destination="@id/prescriptionAnalysisFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/prescriptionAnalysisFragment"
+        android:name="com.developersbeeh.medcontrol.ui.scan.PrescriptionAnalysisFragment"
+        android:label="Análise da Receita"
+        tools:layout="@layout/fragment_prescription_analysis">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="imageUri"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_prescriptionAnalysisFragment_to_addMedicamentoFragment"
+            app:destination="@id/addMedicamentoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reportsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.reports.ReportsFragment"
+        android:label="Central de Relatórios"
+        tools:layout="@layout/fragment_reports">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/insightsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.insights.InsightsFragment"
+        android:label="Insights da IA"
+        tools:layout="@layout/fragment_insights">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/dependentDiaryFragment"
+        android:name="com.developersbeeh.medcontrol.ui.dependents.DependentDiaryFragment"
+        android:label="Diário de Saúde"
+        tools:layout="@layout/fragment_dependent_diary">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/archivedMedicationsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.archive.ArchivedMedicationsFragment"
+        android:label="Gerenciar Medicamentos"
+        tools:layout="@layout/fragment_archived_medications">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageFamilyFragment"
+        android:name="com.developersbeeh.medcontrol.ui.family.ManageFamilyFragment"
+        android:label="Gerenciar Família"
+        tools:layout="@layout/fragment_manage_family" />
+
+    <fragment
+        android:id="@+id/dashboardDependenteFragment"
+        android:name="com.developersbeeh.medcontrol.ui.dashboard.DashboardDependenteFragment"
+        android:label="Painel do Dependente" >
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/completeProfileFragment"
+        android:name="com.developersbeeh.medcontrol.ui.profile.CompleteProfileFragment"
+        android:label="Complete seu Perfil"
+        tools:layout="@layout/fragment_complete_profile">
+
+        <action
+            android:id="@+id/action_completeProfileFragment_to_caregiverDashboardFragment"
+            app:destination="@id/caregiverDashboardFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/cycleTrackerFragment"
+        android:name="com.developersbeeh.medcontrol.ui.cycletracker.CycleTrackerFragment"
+        android:label="Controle de Ciclo"
+        tools:layout="@layout/fragment_cycle_tracker">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_cycleTrackerFragment_to_cycleHistoryFragment"
+            app:destination="@id/cycleHistoryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/achievementsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.achievements.AchievementsFragment"
+        android:label="Conquistas"
+        tools:layout="@layout/fragment_achievements">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/adherenceReportFragment"
+        android:name="com.developersbeeh.medcontrol.ui.adherencereport.AdherenceReportFragment"
+        android:label="Relatório de Adesão"
+        tools:layout="@layout/fragment_adherence_report">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/educationCenterFragment"
+        android:name="com.developersbeeh.medcontrol.ui.education.EducationCenterFragment"
+        android:label="Central Educativa"
+        tools:layout="@layout/fragment_education_center">
+        <action
+            android:id="@+id/action_educationCenterFragment_to_educationDetailFragment"
+            app:destination="@id/educationDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationDetailFragment"
+        android:name="com.developersbeeh.medcontrol.ui.education.EducationDetailFragment"
+        android:label="Artigo"
+        tools:layout="@layout/fragment_education_detail">
+        <argument
+            android:name="artigo"
+            app:argType="com.developersbeeh.medcontrol.data.model.ArtigoEducativo" />
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/vaccinationCardFragment"
+        android:name="com.developersbeeh.medcontrol.ui.vaccination.VaccinationCardFragment"
+        android:label="Carteira de Vacinação"
+        tools:layout="@layout/fragment_vaccination_card">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <argument
+            android:name="dependentDob"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.developersbeeh.medcontrol.ui.chat.ChatFragment"
+        android:label="Assistente IA"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/geriatricCareFragment"
+        android:name="com.developersbeeh.medcontrol.ui.geriatric.GeriatricCareFragment"
+        android:label="Cuidados para Idosos"
+        tools:layout="@layout/fragment_geriatric_care">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_geriatricCareFragment_to_educationDetailFragment"
+            app:destination="@id/educationDetailFragment" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/wellbeingDiaryFragment"
+        android:name="com.developersbeeh.medcontrol.ui.wellbeing.WellbeingDiaryFragment"
+        android:label="Diário de Bem-Estar"
+        tools:layout="@layout/fragment_wellbeing_diary">
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+        <argument
+            android:name="dependentName"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthGoalsFragment"
+        android:name="com.developersbeeh.medcontrol.ui.goals.HealthGoalsFragment"
+        android:label="Minhas Metas de Saúde"
+        tools:layout="@layout/fragment_health_goals" >
+        <argument
+            android:name="dependentId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cycleHistoryFragment"
+        android:name="com.developersbeeh.medcontrol.ui.cycletracker.CycleHistoryFragment"
+        android:label="fragment_cycle_history"
+        tools:layout="@layout/fragment_cycle_history"
+        />
+    <fragment
+        android:id="@+id/editSelfProfileHealthFragment"
+        android:name="com.developersbeeh.medcontrol.ui.profile.EditSelfProfileHealthFragment"
+        android:label="Meus Dados de Saúde"
+        tools:layout="@layout/fragment_edit_self_profile_health" />
+
+    <fragment
+        android:id="@+id/pharmacySelectionFragment"
+        android:name="com.developersbeeh.medcontrol.ui.pharmacy.PharmacySelectionFragment"
+        android:label="Buscar Farmácias"
+        tools:layout="@layout/fragment_pharmacy_selection">
+        <action
+            android:id="@+id/action_pharmacySelectionFragment_to_pharmacyMedicationSelectionFragment"
+            app:destination="@id/pharmacyMedicationSelectionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/pharmacyMedicationSelectionFragment"
+        android:name="com.developersbeeh.medcontrol.ui.pharmacy.PharmacyMedicationSelectionFragment"
+        android:label="Selecionar Medicamentos"
+        tools:layout="@layout/fragment_pharmacy_medication_selection">
+        <argument
+            android:name="pharmacy_name"
+            app:argType="string" />
+        <argument
+            android:name="pharmacy_phone_number"
+            app:argType="string" />
+    </fragment>
+
+
+</navigation>

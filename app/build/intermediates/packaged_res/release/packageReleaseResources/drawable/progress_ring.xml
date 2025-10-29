@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="2.5"
+            android:thicknessRatio="25.0"
+            android:useLevel="true">
+            <gradient
+                android:startColor="?attr/colorPrimary"
+                android:endColor="?attr/colorSecondary"
+                android:type="sweep"
+                android:useLevel="false" />
+        </shape>
+    </item>
+</layer-list>

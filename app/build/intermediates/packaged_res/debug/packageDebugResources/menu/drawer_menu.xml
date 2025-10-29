@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_premium" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_premium_quality"
+            android:title="✨ Seja Premium" />
+    </group>
+
+    <group android:id="@+id/group_account" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_invites"
+            android:icon="@drawable/ic_invites"
+            android:title="Meus Convites" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Meu Perfil" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_unlink"
+            android:title="Sair" />
+    </group>
+
+</menu>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/status_background"
+    android:backgroundTint="?attr/colorSurfaceVariant"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewMedicationName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface"
+            android:textStyle="bold"
+            tools:text="Paracetamol" />
+
+        <TextView
+            android:id="@+id/textViewAdherencePercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="@color/success_green"
+            android:textStyle="bold"
+            tools:text="95%" />
+
+    </LinearLayout>
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressMedicationAdherence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:indicatorColor="@color/success_green"
+        app:trackColor="?attr/colorOutline"
+        app:trackCornerRadius="4dp"
+        tools:progress="95" />
+
+    <TextView
+        android:id="@+id/textViewDosesSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="?attr/textAppearanceLabelMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        tools:text="19 de 20 doses esperadas" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewOnTimeDetail"
+            style="@style/AnalyticsStatDetail"
+            android:drawableStart="@drawable/ic_check_circle"
+            android:drawableTint="@color/success_green"
+            tools:text="18" />
+
+        <TextView
+            android:id="@+id/textViewEarlyDetail"
+            style="@style/AnalyticsStatDetail"
+            android:drawableStart="@drawable/ic_arrow_upward"
+            android:drawableTint="@color/info_blue"
+            tools:text="1" />
+
+        <TextView
+            android:id="@+id/textViewLateDetail"
+            style="@style/AnalyticsStatDetail"
+            android:drawableStart="@drawable/ic_arrow_downward"
+            android:drawableTint="@color/warning_orange"
+            tools:text="0" />
+
+        <TextView
+            android:id="@+id/textViewExtraDetail"
+            style="@style/AnalyticsStatDetail"
+            android:drawableStart="@drawable/ic_add_alert"
+            android:drawableTint="@color/error_red"
+            tools:text="1" />
+    </LinearLayout>
+
+</LinearLayout>

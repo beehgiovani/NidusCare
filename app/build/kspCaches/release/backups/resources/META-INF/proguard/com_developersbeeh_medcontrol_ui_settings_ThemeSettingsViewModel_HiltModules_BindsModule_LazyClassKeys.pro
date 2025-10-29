@@ -1,0 +1,1 @@
+-keep,allowobfuscation,allowshrinking class com.developersbeeh.medcontrol.ui.settings.ThemeSettingsViewModel

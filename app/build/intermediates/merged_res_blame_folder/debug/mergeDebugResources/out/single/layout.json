@@ -1,0 +1,702 @@
+[
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_wellbeing_hydration.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_wellbeing_hydration.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_farmacinha.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_farmacinha.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_complete_self_profile.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_complete_self_profile.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_about.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_about.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/medicamento_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/medicamento_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_food_log.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_food_log.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/cycle_history_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/cycle_history_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_medication_analytics.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_medication_analytics.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dose_history_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dose_history_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/placeholder_adherence_report.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/placeholder_adherence_report.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_meal.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_meal.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_document_viewer.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_document_viewer.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_role_selection.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_role_selection.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_dashboard_reminders.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_dashboard_reminders.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_dashboard_reminder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_dashboard_reminder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/placeholder_dashboard_dependente.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/placeholder_dashboard_dependente.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/reminder_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/reminder_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_analysis_section.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_analysis_section.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_medicamento.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_medicamento.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_wellbeing_meal.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_wellbeing_meal.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_pharmacy_medication_selection.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_pharmacy_medication_selection.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_privacy_settings.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_privacy_settings.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_wellbeing_sleep.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_wellbeing_sleep.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_hidratacao.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_hidratacao.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_activity_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_activity_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_caregiver_dashboard.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_caregiver_dashboard.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_activity.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_activity.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_log_atividade.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_log_atividade.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_insight_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_insight_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_chat_message_user.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_chat_message_user.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_vaccination_card.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_vaccination_card.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_edit_document.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_edit_document.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_education_detail.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_education_detail.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_caregiver.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_caregiver.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_dashboard_category.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_dashboard_category.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_health_schedule.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_health_schedule.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_manage_caregivers.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_manage_caregivers.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/analysis_history_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/analysis_history_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_education_article.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_education_article.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_settings.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/menu_item_switch.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/menu_item_switch.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_achievement.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_achievement.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_loading.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_loading.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_analysis_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_analysis_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/medicamento_database_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/medicamento_database_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_reports.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_reports.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/activity_alarm.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/activity_alarm.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_manage_family.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_manage_family.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/medicamento_item_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/medicamento_item_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_medicamento_detail.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_medicamento_detail.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/nav_header.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/nav_header.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_cycle_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_cycle_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_weight_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_weight_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_reminder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_reminder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/activity_emergency_alert.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/activity_emergency_alert.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_complete_profile_google.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_complete_profile_google.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_vaccine_group.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_vaccine_group.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_health_note.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_health_note.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_dependent_step4.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_dependent_step4.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_pharmacy_medication_selection.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_pharmacy_medication_selection.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_meal.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_meal.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_dependent_step1.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_dependent_step1.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_meal_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_meal_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/calendar_day_layout.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/calendar_day_layout.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_received_invites.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_received_invites.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_profile.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/calendar_month_header_layout.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/calendar_month_header_layout.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_education_center.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_education_center.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_farmacinha.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_farmacinha.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_health_schedule.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_health_schedule.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_lote.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_lote.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_edit_dependent.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_edit_dependent.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_timeline.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_timeline.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_error_state.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_error_state.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_predictive_analysis.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_predictive_analysis.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_insights.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_insights.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_wellbeing_weight.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_wellbeing_weight.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_adherence_report.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_adherence_report.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_reauthenticate_delete.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_reauthenticate_delete.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/caregiver_dashboard_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/caregiver_dashboard_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/reminder_type_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/reminder_type_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_scanned_medication.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_scanned_medication.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_sleep_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_sleep_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_empty_state.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_empty_state.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_change_password.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_change_password.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_timeline_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_timeline_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_calculated_dose.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_calculated_dose.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_log_atividades.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_log_atividades.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_reminders.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_reminders.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_health_documents.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_health_documents.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_analysis_result.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_analysis_result.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_wellbeing_activity.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_wellbeing_activity.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_link_dependent.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_link_dependent.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_onboarding.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_onboarding.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_prescription_analysis.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_prescription_analysis.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_prescription_scanner.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_prescription_scanner.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_select_location.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_select_location.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_dashboard_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_dashboard_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/placeholder_caregiver_dashboard_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/placeholder_caregiver_dashboard_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_register_vaccine.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_register_vaccine.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_archived_list.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_archived_list.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_physical_activity_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_physical_activity_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_onboarding_page.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_onboarding_page.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_onboarding_page.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_onboarding_page.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_edit_self_profile_health.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_edit_self_profile_health.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_notification_settings.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_notification_settings.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_dependent_diary.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_dependent_diary.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_dashboard_dependente.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_dashboard_dependente.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/chip_choice.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/chip_choice.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_archived_medications.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_archived_medications.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_weight_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_weight_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_cycle_details.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_cycle_details.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_reschedule_dose.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_reschedule_dose.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_geriatric_care.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_geriatric_care.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/health_note_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/health_note_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_complete_profile.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_complete_profile.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_daily_cycle_log.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_daily_cycle_log.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/medication_stat_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/medication_stat_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_setting.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_setting.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_pharmacy_selection.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_pharmacy_selection.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_refill_stock.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_refill_stock.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_loading_state.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_loading_state.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/chip_filter.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/chip_filter.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_vaccine.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_vaccine.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_wellbeing_diary.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_wellbeing_diary.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_physical_activity.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_physical_activity.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_pharmacy.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_pharmacy.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_theme_settings.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_theme_settings.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_note_early_dose.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_note_early_dose.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_profile_edit.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_profile_edit.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_list_medicamentos.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_list_medicamentos.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_dependent_step2.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_dependent_step2.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_sleep.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_sleep.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_edit_schedule.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_edit_schedule.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_chat.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_invite_pending.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_invite_pending.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_add_cycle_details.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_add_cycle_details.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_state_view.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_state_view.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/add_medicamento_lote_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/add_medicamento_lote_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_sleep_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_sleep_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_single_input.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_single_input.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_achievement_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_achievement_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dependent_item.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dependent_item.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_add_dependent_step3.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_add_dependent_step3.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_insight.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_insight.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_chat_message_ai.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_chat_message_ai.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_achievements.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_achievements.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_scan_and_confirm.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_scan_and_confirm.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/calendar_day_cycle_layout.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/calendar_day_cycle_layout.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_health_charts.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_health_charts.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_timeline_date_header.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_timeline_date_header.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_invite_received.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_invite_received.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_medicamento_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_medicamento_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_dependent_permissions.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_dependent_permissions.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_meal_section.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_meal_section.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_health_goals.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_health_goals.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_dose_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_dose_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_cycle_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_cycle_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/dialog_manual_dose.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/dialog_manual_dose.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_hydration_tracker.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_hydration_tracker.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_register.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_hydration_history.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_hydration_history.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/single_filter_chip.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/single_filter_chip.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_timeline_log.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_timeline_log.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_family_member.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_family_member.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/activity_main.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_archived_medication.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_archived_medication.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_search_medicamentos.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_search_medicamentos.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_health_notes.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_health_notes.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_splash.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_health_document.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_health_document.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_login.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/item_farmacinha_placeholder.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/item_farmacinha_placeholder.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/layout_state_view_enhanced.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/layout_state_view_enhanced.xml"
+    },
+    {
+        "merged": "com.developersbeeh.medcontrol.app-mergeDebugResources-95:/layout/fragment_premium_plans.xml",
+        "source": "com.developersbeeh.medcontrol.app-main-98:/layout/fragment_premium_plans.xml"
+    }
+]

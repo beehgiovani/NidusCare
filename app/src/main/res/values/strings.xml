@@ -1,0 +1,858 @@
+<resources>
+    <string name="app_name">NidusCare</string>
+    <string name="default_web_client_id" translatable="false">355114439909-9jq899nv93pdsjr2hav6f8gq2okushon.apps.googleusercontent.com</string>
+
+    <string name="local_required">Digite um nome para o local.</string>
+    <string name="lote_invalid_data">Preencha a quantidade e a validade do lote.</string>
+    <string name="invalid_date_format">Formato de data inválido.</string>
+    <string name="permission_denied_tooltip">Permissão para registrar doses negada pelo cuidador.</string>
+    <string name="summary_icon_desc">Ícone de resumo do dia</string>
+
+    <string name="vaccine_taken">Tomada</string>
+    <string name="vaccine_late">Atrasada</string>
+    <string name="vaccine_next">Próxima</string>
+    <string name="vaccine_ok">OK</string>
+
+    <string name="add_schedule_title">Novo Agendamento</string>
+    <string name="edit_schedule_title">Editar Agendamento</string>
+    <string name="schedule_title_for">Agenda de %1$s</string>
+    <string name="schedule_date_picker_title">Data do Agendamento</string>
+    <string name="required_field">Campo obrigatório</string>
+    <string name="invalid_schedule_type">Tipo de agendamento inválido.</string>
+    <string name="schedule_date_past_error">A data e a hora do agendamento não podem ser no passado.</string>
+    <string name="schedule_saved_success">Agendamento salvo com sucesso!</string>
+    <string name="error_saving_schedule">Erro: %1$s</string>
+    <string name="permission_denied_add_schedule">Você não tem permissão para adicionar agendamentos. Para mais informações, contate seu cuidador.</string>
+    <string name="delete_schedule_title">Excluir Agendamento?</string>
+    <string name="delete_schedule_message">Tem certeza que deseja excluir \'%1$s\'?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="edit">Editar</string>
+
+    <string name="add_dependent_title">Adicionar Novo Dependente</string>
+    <string name="edit_dependent_title">Editar Dependente</string>
+    <string name="name_required_error">O nome é obrigatório</string>
+    <string name="select_dob_title">Selecione a Data de Nascimento</string>
+    <string name="dependent_saved_success">Dependente salvo com sucesso!</string>
+    <string name="error_saving_dependent">Erro ao salvar: %1$s</string>
+
+    <string name="required_for_fixed_dose">Obrigatório para dose fixa</string>
+    <string name="add_at_least_one_time">Adicione pelo menos um horário</string>
+    <string name="select_interval_pattern">Escolha um padrão de intervalo</string>
+    <string name="treatment_start_date">Data de Início do Tratamento</string>
+    <string name="lote_validity_date">Data de Validade do Lote</string>
+    <string name="unit_hint">Unidade (ex: comprimido)</string>
+    <string name="quantity_hint">Quantidade*</string>
+    <string name="update_button">Atualizar Medicamento</string>
+    <string name="permission_denied">Permissão de notificação negada.</string>
+    <string name="permission_needed_title">Permissão Necessária</string>
+    <string name="exact_alarm_permission_message">Para garantir que os lembretes funcionem corretamente, o aplicativo precisa de permissão para agendar alarmes exatos.</string>
+    <string name="grant">Conceder</string>
+    <string name="not_now">Agora não</string>
+    <string name="medication_saved_sporadic">Medicamento salvo na sua Caixa de Remédios!</string>
+    <string name="save_medication">salvar medicamento</string>
+    <string name="medication_saved">Medicamento salvo com sucesso!</string>
+
+    <string name="analysis_loading_text">A nossa IA está a analisar os dados...</string>
+    <string name="analysis_error_text">Ocorreu um erro ao gerar a análise.</string>
+    <string name="retry_button_text">Tentar Novamente</string>
+    <string name="error_icon_description">Ícone de erro</string>
+    <string name="predictive_analysis_title">Análise Preditiva</string>
+    <string name="correlations_title">Correlações</string>
+    <string name="interactions_title">Interações Medicamentosas</string>
+    <string name="side_effects_title">Efeitos Colaterais</string>
+    <string name="observations_title">Observações Adicionais</string>
+    <string name="save_pdf_button_text">Salvar PDF</string>
+    <string name="share_button_text">Partilhar</string>
+    <string name="ai_disclaimer">Esta análise é gerada por inteligência artificial e não substitui uma consulta médica. Sempre consulte um profissional de saúde para diagnósticos e tratamentos.</string>
+
+    <string name="add_medication_title">Adicionar Medicamento</string>
+    <string name="edit_medication_title">Editar Medicamento</string>
+    <string name="data_copied_success">Dados copiados. Revise e salve.</string>
+    <string name="end_date_before_start_error">A data de término não pode ser anterior à data de início.</string>
+    <string name="select_end_date_error">Por favor, selecione uma data de término.</string>
+    <string name="treatment_end_date_title">Data de Término do Tratamento</string>
+    <string name="first_dose_time_title">Qual o horário da 1ª dose de %1$s?</string>
+
+    <string name="guide_start_here">Comece por aqui!</string>
+    <string name="guide_add_first_dependent">Toque para adicionar a primeira pessoa que você irá cuidar.</string>
+    <string name="guide_manage_dependent">Gerencie um Dependente</string>
+    <string name="guide_manage_dependent_desc">Clique para expandir e ver detalhes. Clique novamente na área principal para entrar no painel de %1$s.</string>
+    <string name="guide_main_menu">Menu Principal</string>
+    <string name="guide_main_menu_desc">Acesse seu perfil e configurações por aqui.</string>
+    <string name="dependent_created_success">Dependente Criado com Sucesso!</string>
+    <string name="dependent_credentials_message">As credenciais de acesso para %1$s são:\n\nCódigo de Vínculo: %2$s\nSenha: %3$s\n\nAnote ou compartilhe essas informações de forma segura com o dependente.</string>
+    <string name="credentials_label">Credenciais NidusCare</string>
+    <string name="credentials_copied">Credenciais copiadas!</string>
+    <string name="understand">Entendi</string>
+    <string name="copy">Copiar</string>
+    <string name="invite_accepted">Convite aceito! O novo dependente aparecerá na sua lista.</string>
+    <string name="error_accepting_invite">Erro ao aceitar convite: %1$s</string>
+    <string name="invite_declined">Convite recusado.</string>
+    <string name="error_declining_invite">Erro ao recusar o convite.</string>
+    <string name="cannot_delete_self_care_profile">Não é possível excluir seu próprio perfil de autocuidado.</string>
+    <string name="dependent_deleted_success">%1$s foi excluído(a).</string>
+    <string name="error_deleting_dependent">Erro ao excluir %1$s.</string>
+    <string name="fullscreen_alarm_status_updated">Alarme de tela cheia %1$s para %2$s.</string>
+    <string name="status_activated">ativado</string>
+    <string name="status_deactivated">desativado</string>
+    <string name="empty_state_no_dependents_title">Nenhum dependente</string>
+    <string name="empty_state_no_dependents_subtitle">Adicione um dependente para começar a gerenciar os cuidados.</string>
+
+    <string name="dose_history_title">Histórico de Doses</string>
+    <string name="filter_by_medication">Filtrar por Medicamento</string>
+    <string name="all_medications">Todos os medicamentos</string>
+    <string name="filter_button">Filtrar</string>
+    <string name="empty_state_no_dose_history_title">Nenhum histórico de dose</string>
+    <string name="empty_state_no_dose_history_subtitle">Quando as doses forem registradas, elas aparecerão aqui.</string>
+
+    <string name="field_required">Campo obrigatório</string>
+
+    <string name="education_center_title">Central Educativa</string>
+
+    <string name="manage_caregivers_title">Gerenciar Cuidadores</string>
+    <string name="manage_caregivers_of_dependent">Cuidadores de %1$s</string>
+    <string name="self_care_no_sharing">Seu perfil de autocuidado não pode ser compartilhado com outros cuidadores.</string>
+    <string name="current_caregivers">Cuidadores Atuais</string>
+    <string name="pending_invites">Convites Pendentes</string>
+    <string name="invite_new_caregiver">Convidar Novo Cuidador</string>
+    <string name="invite_caregiver_message">Digite o e-mail do cuidador que você deseja convidar. Ele(a) precisa ter uma conta no NidusCare.</string>
+    <string name="send_invite">Enviar Convite</string>
+    <string name="invalid_email_please_insert">Por favor, insira um e-mail válido.</string>
+    <string name="remove_caregiver_title">Remover Cuidador?</string>
+    <string name="remove_caregiver_message">Tem certeza que deseja remover %1$s do círculo de cuidado de %2$s? Ele(a) perderá o acesso a todos os dados.</string>
+    <string name="remove">Remover</string>
+    <string name="cancel_invite_title">Cancelar Convite?</string>
+    <string name="cancel_invite_message">Tem certeza que deseja cancelar o convite enviado para %1$s?</string>
+    <string name="dialog_option_no">Não</string>
+    <string name="dialog_option_yes_cancel">Sim, Cancelar</string>
+
+
+    <string name="add_with_camera">Adicionar com Câmera</string>
+    <string name="scan_medication_box_title">Escanear Embalagem</string>
+    <string name="scan_medication_box_subtitle">Centralize a caixa ou cartela do medicamento</string>
+    <string name="analyzing_with_ai">Analisando com IA...</string>
+    <string name="confirm_scanned_data">Confirme os Dados Extraídos</string>
+    <string name="expiration_date">Data de Validade*</string>
+    <string name="stock_quantity">Quantidade em Estoque*</string>
+    <string name="medication_name">Nome do Medicamento*</string>
+    <string name="therapeutic_class">Classe Terapêutica</string>
+    <string name="notes">Anotações</string>
+    <string name="error_analyzing_image">Não foi possível analisar a imagem. Tente uma foto mais nítida.</string>
+    <string name="functionality_premium">Funcionalidade Premium</string>
+    <string name="scan_medication_premium_desc">Escanear caixas de remédio com a câmera é um recurso exclusivo para usuários Premium. Faça upgrade para usar esta e outras funcionalidades avançadas!</string>
+    <string name="go_premium">Ver Planos</string>
+
+    <string name="delete_medication_title">Excluir Medicamento?</string>
+    <string name="delete_medication_farmacinha_message">Tem certeza que deseja excluir permanentemente \'%1$s\' da Caixa de Remédios de %2$s?</string>
+
+    <string name="active_ingredient">Princípio Ativo</string>
+    <string name="lot_number">Lote</string>
+
+
+    <string name="medications_of">Medicamentos de %1$s</string>
+    <string name="permission_denied_register_doses">Você não tem permissão para registrar doses.</string>
+    <string name="permission_denied_skip_doses">Você não tem permissão para pular doses.</string>
+    <string name="no_scheduled_tasks_today">Nenhuma tarefa programada para hoje.</string>
+    <string name="today_you_have_summary">Hoje você tem %1$s</string>
+    <string name="today_you_have_summary_plural">Hoje você tem %1$s e %2$s</string>
+    <string name="doses_singular">%1$d dose</string>
+    <string name="doses_plural">%1$d doses</string>
+    <string name="reminders_singular">%1$d lembrete</string>
+    <string name="reminders_plural">%1$d lembretes</string>
+    <string name="dose_skipped_success">Dose de %1$s das %2$s foi pulada.</string>
+    <string name="dose_skipped_fail">Falha ao registrar a dose pulada.</string>
+    <string name="skip_dose_title">Pular Dose?</string>
+    <string name="skip_dose_message">Tem certeza que deseja pular a próxima dose de \'%1$s\'? Você pode adicionar um motivo abaixo.</string>
+    <string name="reason_optional">Motivo (opcional)</string>
+    <string name="confirm">Confirmar</string>
+    <string name="register_late_dose_title">Registrar Dose Atrasada</string>
+    <string name="register_late_dose_message">Você tomou este medicamento agora ou se esqueceu de registrar no horário?</string>
+    <string name="register_late_dose_option_now">Tomei Agora</string>
+    <string name="register_late_dose_option_forgot">Esqueci de Registrar</string>
+    <string name="register_late_dose_timepicker_title">Que horas você tomou?</string>
+    <string name="reschedule_title">Reajustar Horários?</string>
+    <string name="reschedule_message">Você registrou esta dose com %1$d hora%2$s de atraso. Deseja reajustar os próximos horários de hoje para \'%3$s\' com base neste novo horário?</string>
+    <string name="reschedule_option_no">Não, manter</string>
+    <string name="reschedule_option_yes">Sim, reajustar</string>
+    <string name="register_early_dose_title">Registrar Dose Adiantada</string>
+    <string name="register_early_dose_message">Você está registrando uma dose de \'%1$s\' antes do horário. Se desejar, adicione uma observação.</string>
+    <string name="reason_early_dose_optional">Motivo de adiantar (opcional)</string>
+    <string name="where_was_application">Onde foi a aplicação?</string>
+    <string name="suggestion_prefix">Sugestão: </string>
+    <string name="calculate_and_register_dose">Calcular e Registrar Dose</string>
+    <string name="error_insert_current_glycemia">Por favor, insira a glicemia atual.</string>
+    <string name="suggested_dose_prefix">Dose Sugerida: </string>
+    <string name="suggested_dose_suffix"> unidades</string>
+    <string name="register_manual_dose_title">Registrar Dose Manual</string>
+    <string name="register_manual_dose_message">Qual a quantidade de %1$s foi administrada?</string>
+    <string name="hint_quantity_in">Quantidade em %1$s</string>
+
+    <string name="register_dose_title">Registar Dose</string>
+    <string name="register_dose_sporadic_message">Deseja registrar uma dose de \'%1$s\' agora?</string>
+    <string name="confirm_early_dose_title">Confirmar Dose Adiantada?</string>
+    <string name="confirm_early_dose_message">Você está registrando esta dose adiantado. O próximo lembrete agendado é às %1$s.\n\nDeseja continuar?</string>
+    <string name="very_early_dose_title">Dose Muito Adiantada</string>
+    <string name="very_early_dose_message">Atenção: A próxima dose de %1$s é só às %2$s. Por favor, justifique o motivo de adiantar a dose.</string>
+    <string name="justification_required">A justificativa é obrigatória.</string>
+    <string name="overdose_title">Dose Superior à Posologia?</string>
+    <string name="overdose_message">Atenção: Você já registrou todas as doses de %1$s prescritas para hoje. Tomar uma dose adicional pode ser contrário à posologia indicada.\n\nDeseja registar esta dose extra?</string>
+    <string name="delete_confirmation_title">Confirmar Exclusão</string>
+    <string name="delete_confirmation_message">Deseja realmente excluir \'%1$s\'? Todas as suas notificações serão canceladas.</string>
+    <string name="deleted_snackbar_message">\'%1$s\' excluído.</string>
+    <string name="undo">DESFAZER</string>
+    <string name="medication_restored">\'%1$s\' foi restaurado.</string>
+    <string name="share_schedule_title">Compartilhar agenda de hoje</string>
+    <string name="share_schedule_header">🗓️ *Agenda de Medicamentos para %1$s - %2$s*</string>
+    <string name="share_schedule_no_meds_today">Nenhum medicamento com horário agendado para hoje para %1$s.</string>
+    <string name="share_schedule_footer">\n_Gerado por NidusCare_</string>
+    <string name="refill_stock_title">Repor Estoque de %1$s</string>
+    <string name="refill_stock_hint">Adicionar (em %1$s)</string>
+    <string name="select_expiration_date">Selecione a Data de Validade</string>
+    <string name="invalid_quantity">Quantidade inválida.</string>
+    <string name="select_date">Selecione a data de validade.</string>
+    <string name="stock_updated">Estoque atualizado!</string>
+    <string name="guide_empty_list_title">Comece por aqui</string>
+    <string name="guide_empty_list_subtitle">Toque para adicionar o primeiro medicamento para %1$s.</string>
+    <string name="guide_first_med_details">Ver Detalhes</string>
+    <string name="guide_first_med_details_subtitle">Toque no card a qualquer momento para expandir e ver mais detalhes, como estoque e anotações.</string>
+    <string name="no_meds_registered">Nenhum medicamento cadastrado</string>
+    <string name="no_meds_registered_subtitle">Toque no botão "Adicionar" para cadastrar seu primeiro medicamento</string>
+    <string name="no_search_results">Nenhum resultado</string>
+    <string name="no_search_results_subtitle">Não encontramos nenhum medicamento para \'%1$s\'.</string>
+    <string name="fab_add">Adicionar</string>
+    <string name="fab_register_dose">Registrar Dose</string>
+    <string name="select_dose_title">Qual dose foi tomada?</string>
+
+
+    <string name="next">Próximo</string>
+    <string name="add">Adicionar</string>
+
+
+    <string name="error_invalid_dependent_id">ID do dependente é inválido.</string>
+    <string name="error_medication_not_found">Medicamento não encontrado.</string>
+    <string name="error_fetching_medication">Erro ao buscar medicamento \'%1$s\': %2$s</string>
+    <string name="error_saving_medication">Erro ao salvar medicamento: %1$s</string>
+    <string name="error_invalid_medication_id">ID do medicamento é inválido.</string>
+    <string name="error_invalid_ids">IDs inválidos.</string>
+    <string name="error_adding_stock_lot">Erro ao adicionar lote de estoque: %1$s</string>
+    <string name="error_recording_dose">Erro ao registrar dose e atualizar estoque: %1$s</string>
+    <string name="error_recording_skipped_dose">Erro ao registrar dose como pulada</string>
+    <string name="error_checking_achievements">Falha ao verificar conquistas de contagem de doses: %1$s</string>
+
+    <string name="take_now">Tomar Agora</string>
+    <string name="snooze_15_min">Adiar 15 min</string>
+    <string name="skip_dose">Pular Dose</string>
+
+
+
+    <string name="treatment_finished_feedback">O tratamento para este medicamento já foi finalizado.</string>
+    <string name="cannot_register_dose_now">Não é possível registrar dose para este medicamento no momento.</string>
+    <string name="no_dose_to_skip">Não há uma dose programada para pular.</string>
+
+    <string name="med_schedule_adjusted">Horários de \'%1$s\' foram reajustados para hoje.</string>
+    <string name="schedule_adjust_fail">Falha ao reajustar horários.</string>
+    <string name="dose_recorded_advanced_with_reason">Motivo (adiantado): %1$s</string>
+    <string name="dose_recorded_advanced">Dose registrada adiantada.</string>
+    <string name="dose_recorded_very_advanced_with_reason">Motivo (muito adiantado): %1$s</string>
+    <string name="dose_recorded_very_advanced">Dose registrada muito adiantada.</string>
+    <string name="error_fetching_history">Erro ao buscar histórico.</string>
+    <string name="dose_info_registered">%1$s de \'%2$s\' registrada%3$s</string>
+    <string name="dose_info_registered_default">1 dose</string>
+    <string name="dose_info_registered_location"> em \'%1$s\'</string>
+    <string name="dose_registration_fail">Falha ao registrar a dose.</string>
+    <string name="note_auto_glycemia">Registrado automaticamente com a dose de %1$s.</string>
+    <string name="error_deleting_medication">Erro ao excluir medicamento.</string>
+    <string name="medication_action_log">\'%1$s\' os lembretes de %2$s</string>
+    <string name="medication_action_paused">pausou</string>
+    <string name="medication_action_resumed">reativou</string>
+    <string name="no_meds_to_share">Nenhum medicamento para compartilhar.</string>
+    <string name="share_patient_placeholder">o paciente</string>
+    <string name="share_dose_type_manual">Manual</string>
+    <string name="share_dose_type_calculated">Calculada</string>
+
+
+    <string name="title_daily_summary">Resumo do Dia</string>
+    <string name="title_pending_invites">Convites Pendentes</string>
+
+    <string name="error_loading_dependents">Não foi possível carregar os dependentes.</string>
+    <string name="goal_achieved">Meta atingida!</string>
+    <string name="goal_to_go">Faltam %.1f kg</string>
+    <string name="invite_accepted_success">Convite aceito! O novo dependente aparecerá na sua lista.</string>
+    <string name="invite_accepted_error">Erro ao aceitar convite: %1$s</string>
+    <string name="invite_declined_success">Convite recusado.</string>
+    <string name="invite_declined_error">Erro ao recusar o convite.</string>
+    <string name="error_cannot_delete_self_profile">Não é possível excluir seu próprio perfil de autocuidado.</string>
+
+    <string name="dependent_deleted_error">Erro ao excluir %1$s.</string>
+
+    <string name="summary_doses_today">Doses hoje: %1$d de %2$d tomadas</string>
+    <string name="summary_no_future_doses">Nenhuma dose futura</string>
+    <string name="summary_appointments_today_single">%1$d compromisso na agenda hoje.</string>
+    <string name="summary_appointments_today_plural">%1$d compromissos na agenda hoje.</string>
+    <string name="summary_doses_late_single">%1$d dose está atrasada</string>
+    <string name="summary_doses_late_plural">%1$d doses estão atrasadas</string>
+
+    <string name="format_age_years">%d anos</string>
+    <string name="label_today_progress">Hoje: %1$d de %2$d doses</string>
+    <string name="label_adherence_7d">Adesão (7d)</string>
+    <string name="label_next_dose">Próxima Dose</string>
+    <string name="label_appointments_today">CONSULTAS HOJE</string>
+    <string name="label_low_stock">ESTOQUE BAIXO</string>
+    <string name="label_new_insights">NOVOS INSIGHTS</string>
+    <string name="label_view">VER</string>
+    <string name="format_percentage">%d%%</string>
+       <string name="error_user_not_authenticated_relogin">Usuário não autenticado. Faça login novamente.</string>
+        <string name="none_informed">Nenhuma informada</string>
+        <string name="name_not_found">Nome não encontrado</string>
+        <string name="dosage_not_found">Dosagem não encontrada</string>
+        <string name="analysis_warnings">Avisos da Análise:\n- %1$s</string>
+        <string name="error_unknown_prescription_analysis">Erro desconhecido ao analisar a receita.</string>
+        <string name="error_failed_prescription_analysis">Falha ao analisar a receita: %1$s</string>
+        <string name="error_user_not_authenticated">Usuário não autenticado.</string>
+        <string name="error_cannot_process_ai_response">Não foi possível processar a resposta da IA.</string>
+        <string name="error_failed_meal_analysis">Falha ao analisar a refeição: %1$s</string>
+        <string name="error_uploading_image_to_storage">Falha no upload da imagem para o Storage</string>
+        <string name="error_unknown">Erro desconhecido</string>
+        <string name="error_uploading_image">Falha no upload da imagem</string>
+
+        <string name="title_prescription_analysis">Análise da Receita</string>
+        <string name="image_capture_cancelled">Captura de imagem cancelada.</string>
+        <string name="no_image_selected">Nenhuma imagem selecionada.</string>
+        <string name="camera_permission_denied">Permissão de câmera negada.</string>
+        <string name="error_creating_image_file">Erro ao criar arquivo de imagem.</string>
+        <string name="guide_scanner_camera_title">Tirar uma foto</string>
+        <string name="guide_scanner_camera_subtitle">Use a câmera para tirar uma foto nítida e bem iluminada da sua receita médica.</string>
+        <string name="guide_scanner_gallery_title">Escolher da Galeria</string>
+        <string name="guide_scanner_gallery_subtitle">Ou, se preferir, escolha uma imagem da sua galeria de fotos.</string>
+
+        <string name="analyzing_prescription">Analisando receita...</string>
+        <string name="saving_medications">Salvando medicamentos...</string>
+        <string name="all_medications_saved_success">Todos os medicamentos foram salvos!</string>
+        <string name="all_medications_saved_fail">Falha ao salvar um ou mais medicamentos.</string>
+        <string name="question_first_dose_time">Qual o horário da 1ª dose de %1$s?</string>
+        <string name="dosage_not_identified">Dosagem: Não identificada</string>
+        <string name="posology_ok">Posologia: OK</string>
+        <string name="posology_pending">Posologia: Pendente</string>
+
+        <string name="medication_saved_to_farmacinha">Medicamento salvo na farmacinha!</string>
+
+        <string name="error_invalid_date_format_mm_yyyy">Formato inválido. Use MM/AAAA</string>
+
+
+        <string name="empty_state_no_weight_records">Nenhum registro de peso encontrado.</string>
+        <string name="chart_label_weight_evolution">Evolução do Peso</string>
+        <string name="chart_label_goal">Meta</string>
+        <string name="weight_value_kg">%.1f kg</string>
+        <string name="weight_gain_kg">+%.1f kg</string>
+        <string name="weight_loss_kg">%.1f kg</string>
+        <string name="weight_stable_kg">0.0 kg</string>
+        <string name="error_dependent_not_found">Dependente não encontrado.</string>
+
+        <string name="empty_state_no_meal_records">Nenhum registro de refeição encontrado.</string>
+        <string name="chart_label_calories_kcal">Calorias (kcal)</string>
+        <string name="date_today">Hoje</string>
+        <string name="date_yesterday">Ontem</string>
+        <string name="meal_type_default">Refeição</string>
+        <string name="value_kcal">%skcal</string>
+
+    <string name="meal_type_breakfast">Café da Manhã</string>
+    <string name="meal_type_lunch">Almoço</string>
+    <string name="meal_type_dinner">Jantar</string>
+    <string name="meal_type_snack">Lanche</string>
+
+
+
+    <string name="flow_intensity_none">Nenhum</string>
+    <string name="flow_intensity_spotting">Gotas</string>
+    <string name="flow_intensity_light">Leve</string>
+    <string name="flow_intensity_medium">Médio</string>
+    <string name="flow_intensity_heavy">Intenso</string>
+    <string name="symptom_cramps">Cólicas</string>
+    <string name="symptom_headache">Dor de Cabeça</string>
+    <string name="symptom_bloating">Inchaço</string>
+    <string name="symptom_fatigue">Fadiga</string>
+    <string name="symptom_mood_swings">Alterações de Humor</string>
+    <string name="symptom_acne">Acne</string>
+    <string name="symptom_tender_breasts">Sensibilidade nos Seios</string>
+    <string name="symptom_back_pain">Dor nas Costas</string>
+    <string name="symptom_nausea">Náusea</string>
+    <string name="symptom_cravings">Desejos Alimentares</string>
+    <string name="mood_happy">Feliz</string>
+    <string name="mood_calm">Calma</string>
+    <string name="mood_sad">Triste</string>
+    <string name="mood_irritable">Irritada</string>
+    <string name="mood_anxious">Ansiosa</string>
+    <string name="mucus_dry">Seco</string>
+    <string name="mucus_sticky">Pegajoso</string>
+    <string name="mucus_creamy">Cremoso</string>
+    <string name="mucus_egg_white">Clara de Ovo</string>
+
+    <string name="cycle_history_title">Histórico de Ciclos</string>
+    <string name="cycle_history_empty">Nenhum histórico de ciclo completo encontrado.</string>
+    <string name="cycle_date_format">dd \'de\' MMM. \'de\' yyyy</string>
+    <string name="cycle_length_days">Ciclo: %d dias</string>
+    <string name="period_length_days">Período: %d dias</string>
+
+    <string name="cycle_tracker_title">Ciclo de %s</string>
+    <string name="calendar_month_year_format">MMMM yyyy</string>
+    <string name="locale_pt">pt</string>
+    <string name="locale_br">BR</string>
+    <string name="date_format_dd_mm_yyyy">dd/MM/yyyy</string>
+    <string name="error_cannot_log_future_date">Não é possível registrar em uma data futura.</string>
+    <string name="dialog_title_cycle_log_for_date">Registro para o dia: %s</string>
+    <string name="sexual_activity_protected">Sim (com proteção)</string>
+    <string name="sexual_activity_unprotected">Sim (sem proteção)</string>
+    <string name="no_record_for_this_day">Nenhum registro para este dia.</string>
+    <string name="details_label_flow">Fluxo</string>
+    <string name="details_label_symptoms">Sintomas</string>
+    <string name="details_label_mood">Humor</string>
+    <string name="details_label_activity">Atividade Sexual</string>
+    <string name="details_label_notes">Anotações</string>
+
+    <string name="cycle_vm_loading">Carregando dados...</string>
+    <string name="cycle_vm_prediction_delayed">A menstruação está atrasada.</string>
+    <string name="cycle_vm_prediction_today">A menstruação deve começar hoje.</string>
+    <string name="cycle_vm_prediction_tomorrow">A menstruação deve começar amanhã.</string>
+    <string name="cycle_vm_prediction_in_x_days">Próxima menstruação em %d dias.</string>
+    <string name="cycle_vm_prediction_insufficient_data">São necessários pelo menos 2 ciclos completos para prever.</string>
+    <string name="cycle_vm_phase_menstrual">Fase Menstrual</string>
+    <string name="cycle_vm_phase_fertile">Janela Fértil</string>
+    <string name="cycle_vm_phase_luteal">Fase Lútea (TPM)</string>
+    <string name="cycle_vm_phase_follicular">Fase Folicular</string>
+    <string name="cycle_vm_error_no_id">Erro: ID do dependente não definido.</string>
+    <string name="cycle_vm_log_saved">Registro de %s salvo!</string>
+    <string name="cycle_vm_log_save_error">Erro ao salvar o registro.</string>
+    <string name="save">Salvar</string>
+
+
+    <string name="error_dependent_not_found_id">Dependente com ID %s não foi encontrado.</string>
+    <string name="error_combining_data_streams">Erro ao combinar fluxos de dados dinâmicos: </string>
+    <string name="summary_greeting">Tenha um ótimo dia, %s!</string>
+    <string name="summary_next_medication">Próximo medicamento às %s.</string>
+    <string name="summary_next_appointment">Próximo compromisso: %s às %s.</string>
+    <string name="weekly_summary_hydration">%.1f L / dia</string>
+    <string name="weekly_summary_activity">%d min / semana</string>
+    <string name="category_emergency">Emergência</string>
+    <string name="category_medications">Medicamentos</string>
+    <string name="category_pharmacy_express">Farmácia Express</string>
+    <string name="category_wellbeing_diary">Diário de Bem-Estar</string>
+    <string name="category_schedule">Agenda</string>
+    <string name="category_notes">Anotações</string>
+    <string name="category_reminders">Lembretes</string>
+    <string name="category_medication_box">Caixa de Remédios</string>
+    <string name="category_timeline">Linha do Tempo</string>
+    <string name="category_dose_history">Histórico de Doses</string>
+    <string name="category_documents">Documentos</string>
+    <string name="category_education_center">Central Educativa</string>
+    <string name="category_achievements">Conquistas</string>
+    <string name="category_vaccines">Vacinas</string>
+    <string name="category_geriatric_care">Cuidado Idoso</string>
+    <string name="category_cycle">Ciclo</string>
+    <string name="category_chat_ia">Chat IA</string>
+    <string name="category_predictive_analysis">Análise Preditiva</string>
+    <string name="category_scan_prescription">Escanear Receita</string>
+    <string name="category_reports">Relatórios</string>
+    <string name="category_premium_features">Funções Premium</string>
+    <string name="category_goals">Metas</string>
+    <string name="category_edit_profile">Editar Perfil</string>
+    <string name="category_caregivers">Cuidadores</string>
+    <string name="category_credentials">Credenciais</string>
+    <string name="category_manage_archived">Gerenciar Arq.</string>
+    <string name="category_delete_profile">Excluir Perfil</string>
+    <string name="error_analysis_history_save">Não foi possível salvar a análise no histórico.</string>
+
+    <string name="error_cannot_delete_self_profile_here">Não é possível excluir seu próprio perfil de autocuidado a partir daqui.</string>
+
+    <string name="emergency_alert_sent_success">Alerta de emergência enviado aos seus cuidadores!</string>
+    <string name="emergency_alert_sent_fail">Falha ao enviar alerta. Verifique sua conexão.</string>
+    <string name="log_emergency_button_pressed">acionou o botão de emergência</string>
+    <string name="analysis_loading_message">Analisando...</string>
+    <string name="error_dependent_id_not_found">ID do dependente não encontrado.</string>
+    <string name="imc_classification_underweight">Abaixo do peso</string>
+    <string name="imc_classification_normal">Peso normal</string>
+    <string name="imc_classification_overweight">Sobrepeso</string>
+    <string name="imc_classification_obesity">Obesidade</string>
+    <string name="goal_to_go_format">Faltam %.1f kg para sua meta</string>
+
+    <string name="dashboard_title_prefix">Painel de %s</string>
+    <string name="age_not_informed">Idade não informada</string>
+    <string name="age_format_years">%d anos</string>
+    <string name="weight_format_kg">%s kg</string>
+    <string name="height_format_cm">%s cm</string>
+    <string name="missed_doses_details">Doses pendentes para: %s.</string>
+    <string name="reminders_empty_state">Nenhum lembrete rápido ativo para hoje.</string>
+    <string name="weekly_summary_title">Resumo da Semana</string>
+    <string name="weekly_summary_hydration_label">Hidratação</string>
+    <string name="weekly_summary_activity_label">Atividade</string>
+    <string name="care_management_title">Gerenciamento de Cuidados</string>
+    <string name="health_data_title">Dados de Saúde</string>
+    <string name="profile_management_title">Gerenciamento do Perfil</string>
+    <string name="advanced_tools_title">Ferramentas Avançadas</string>
+    <string name="weight_tracker_title">Evolução do Peso</string>
+    <string name="imc_label">IMC</string>
+    <string name="goal_label">Meta</string>
+    <string name="dialog_title_predictive_analysis">Análise Preditiva de Saúde</string>
+    <string name="dialog_subtitle_predictive_analysis">Descreva os principais sintomas ou preocupações para a IA analisar.</string>
+    <string name="dialog_hint_symptoms">Ex: Febre alta, tosse seca e dificuldade para respirar...</string>
+    <string name="dialog_label_period">Período de Análise</string>
+    <string name="chip_today">Hoje</string>
+    <string name="chip_7_days">7 dias</string>
+    <string name="chip_30_days">30 dias</string>
+    <string name="chip_custom_range">Período</string>
+    <string name="dialog_label_include_data">Incluir dados de:</string>
+    <string name="switch_dose_history">Histórico de Doses</string>
+    <string name="switch_health_notes">Anotações de Saúde</string>
+    <string name="switch_continuous_meds">Medicamentos Contínuos</string>
+    <string name="dialog_select_period_title">Selecione o Período</string>
+    <string name="dialog_button_generate_analysis">Gerar Análise</string>
+    <string name="dialog_button_cancel">Cancelar</string>
+    <string name="error_field_required">Este campo é obrigatório.</string>
+    <string name="error_generating_analysis">Erro ao gerar análise: %s</string>
+    <string name="dialog_title_credentials">Credenciais de Acesso</string>
+    <string name="dialog_message_credentials">As credenciais de acesso para %1$s são:\n\nCódigo de Vínculo: %2$s\nSenha: %3$s\n\nAnote ou compartilhe essas informações de forma segura com o dependente.</string>
+    <string name="button_copy">Copiar</string>
+    <string name="dialog_title_confirm_delete">Confirmar Exclusão</string>
+    <string name="dialog_message_confirm_delete">Tem certeza que deseja excluir %s? Esta ação é permanente.</string>
+    <string name="button_delete">Excluir</string>
+    <string name="dialog_title_emergency_alert">Enviar Alerta de Emergência?</string>
+    <string name="dialog_message_emergency_alert">Seus cuidadores serão notificados imediatamente que você precisa de ajuda. Deseja continuar?</string>
+    <string name="button_send_alert">Sim, Enviar Alerta</string>
+
+
+    <string name="archived_meds_title">Gerenciar: %s</string>
+    <string name="archived_tab_finished">Tratamentos Concluídos</string>
+    <string name="archived_tab_zero_stock">Estoque Zerado</string>
+    <string name="archived_tab_expired">Lotes Vencidos</string>
+
+    <string name="reason_treatment_finished">Tratamento concluído</string>
+    <string name="reason_stock_empty">Estoque zerado</string>
+    <string name="reason_lots_expired">Contém lotes vencidos</string>
+    <string name="empty_state_no_finished_treatments">Nenhum tratamento concluído encontrado.</string>
+    <string name="empty_state_no_zero_stock_meds">Nenhum medicamento com estoque zerado.</string>
+    <string name="empty_state_no_expired_meds">Nenhum medicamento com lotes vencidos.</string>
+
+    <string name="dialog_title_delete_permanent">Excluir Permanentemente?</string>
+    <string name="dialog_message_delete_permanent">Esta ação excluirá \'%s\' e todo o seu histórico de doses. Esta ação não pode ser desfeita.</string>
+    <string name="dialog_button_delete">Excluir</string>
+
+    <string name="dialog_title_refill_stock">Repor Estoque de %s</string>
+    <string name="dialog_hint_add_stock">Adicionar (em %s)</string>
+    <string name="dialog_title_select_expiry_date">Selecione a Data de Validade</string>
+    <string name="dialog_button_add">Adicionar</string>
+    <string name="error_invalid_quantity">Quantidade inválida.</string>
+    <string name="error_select_expiry_date">Selecione a data de validade.</string>
+
+    <string name="action_reactivate_treatment">Reativar Tratamento</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_refill_stock">Repor Estoque</string>
+    <string name="action_stop_tracking">Parar de Rastrear</string>
+    <string name="action_remove_expired">Remover Vencidos</string>
+
+    <string name="feedback_med_restored">\'%s\' foi restaurado para a lista principal.</string>
+    <string name="feedback_med_restore_fail">Falha ao restaurar medicamento.</string>
+    <string name="feedback_expired_lots_removed">Lotes vencidos de \'%s\' foram removidos.</string>
+    <string name="feedback_stock_tracking_stopped">O rastreamento de estoque para \'%s\' foi desativado.</string>
+    <string name="feedback_med_deleted_permanently">\'%s\' foi excluído permanentemente.</string>
+    <string name="feedback_delete_permanent_fail">Falha ao excluir permanentemente.</string>
+    <string name="feedback_stock_refilled">Estoque de \'%s\' atualizado! O medicamento foi movido para a lista principal.</string>
+    <string name="feedback_stock_refill_fail">Falha ao atualizar o estoque.</string>
+
+    <string name="log_med_restored">restaurou o medicamento %s</string>
+    <string name="log_expired_lots_removed">removeu lotes vencidos de %s</string>
+    <string name="log_med_deleted_permanently">excluiu permanentemente o medicamento %s</string>
+    <string name="log_stock_refilled">repos o estoque de %s</string>
+
+
+    <string name="meal_dialog_title">Registrar Refeição</string>
+    <string name="meal_dialog_analyze_with_camera">Analisar com Câmera (Premium)</string>
+    <string name="meal_dialog_analyzing">Analisando...</string>
+    <string name="meal_dialog_benefits_title">Benefícios da Refeição</string>
+    <string name="meal_dialog_nidus_tip_title">Dica do Nidus</string>
+    <string name="meal_dialog_meal_type_title">Tipo de Refeição</string>
+    <string name="meal_dialog_hint_description">O que você comeu?</string>
+    <string name="meal_dialog_hint_calories">Calorias (Opcional)</string>
+    <string name="meal_dialog_suffix_kcal">kcal</string>
+    <string name="meal_dialog_save">Salvar</string>
+    <string name="meal_dialog_cancel">Cancelar</string>
+
+    <string name="meal_log_success">Refeição registrada com sucesso!</string>
+    <string name="meal_log_fail">Erro ao registrar refeição.</string>
+    <string name="error_description_required">A descrição é obrigatória.</string>
+
+    <string name="date_format_dd_mm">dd/MM</string>
+    <string name="form_hint_stock_quantity">Quantidade em Estoque</string>
+
+
+    <string name="wellbeing_diary_title">Diário de Bem-Estar</string>
+    <string name="water_goal_format">Meta: %d ml</string>
+    <string name="activity_goal_format">Meta: %d min</string>
+    <string name="calories_progress_format">%d / %d kcal</string>
+    <string name="sleep_quality_format">Qualidade: %s</string>
+    <string name="sleep_duration_empty">- h -- m</string>
+    <string name="sleep_no_record_today">Nenhum registro hoje</string>
+    <string name="sleep_button_edit">Editar</string>
+    <string name="sleep_button_register">Registrar</string>
+    <string name="weight_goal_not_set">Definir Meta</string>
+    <string name="hydration_add_200ml">+200 ml</string>
+    <string name="hydration_add_500ml">+500 ml</string>
+    <string name="activity_start_timer">Iniciar Cronômetro</string>
+    <string name="activity_add_manually">Adicionar</string>
+    <string name="activity_timer_pause">Pausar</string>
+    <string name="activity_timer_stop">Parar</string>
+    <string name="activity_timer_resume">Continuar</string>
+    <string name="meal_add">Registrar Refeição</string>
+    <string name="meal_analyze">Analisar com Câmera</string>
+    <string name="error_premium_feature_meal_analysis">Análise de refeição com IA é um recurso Premium.</string>
+    <string name="image_source_dialog_title">Analisar Refeição</string>
+    <string name="image_source_camera">Tirar Foto com a Câmera</string>
+    <string name="image_source_gallery">Escolher da Galeria</string>
+    <string name="error_create_image_file_failed">Erro ao criar arquivo de imagem.</string>
+    <string name="dialog_add_meal_title">Registrar Refeição</string>
+    <string name="dialog_add_sleep_title_edit">Editar Registro de Sono</string>
+    <string name="dialog_add_sleep_title_new">Registrar Sono</string>
+    <string name="sleep_quality_good">Boa</string>
+    <string name="sleep_quality_ok">Razoável</string>
+    <string name="sleep_quality_bad">Ruim</string>
+    <string name="sleep_bedtime_label">Hora de Dormir</string>
+    <string name="sleep_wake_time_label">Hora de Acordar</string>
+    <string name="sleep_suggest_time_button">Sugerir horário</string>
+    <string name="sleep_interruptions_label">Interrupções</string>
+    <string name="dialog_title_update_weight">Atualizar Peso Atual</string>
+    <string name="dialog_hint_new_weight_kg">Novo Peso (kg)</string>
+    <string name="dialog_title_start_activity_timer">Iniciar Atividade com Cronômetro</string>
+    <string name="dialog_title_log_activity_manual">Registrar Atividade Manualmente</string>
+    <string name="dialog_button_start">Iniciar</string>
+    <string name="dialog_button_save">Salvar</string>
+    <string name="dialog_hint_activity_type">Tipo de Atividade (ex: Caminhada, Corrida)</string>
+    <string name="dialog_hint_activity_duration">Duração (minutos)</string>
+    <string name="error_activity_type_required">Por favor, defina um tipo de atividade.</string>
+    <string name="error_activity_duration_required">Por favor, insira uma duração válida.</string>
+
+
+    <string name="goal_achieved_congrats">Meta atingida! Parabéns!</string>
+    <string name="goal_to_go_format_kg">Faltam %skg para sua meta de %skg</string>
+    <string name="error_invalid_weight_value">Por favor, insira um valor de peso válido.</string>
+    <string name="feedback_weight_updated">Peso atualizado com sucesso!</string>
+    <string name="feedback_weight_update_fail">Falha ao atualizar o peso.</string>
+    <string name="log_weight_updated">atualizou o peso para %s kg</string>
+    <string name="log_water_intake">registrou o consumo de %d ml de água</string>
+    <string name="feedback_water_logged">%d ml de água registrados!</string>
+    <string name="feedback_water_log_fail">Erro ao registrar consumo de água.</string>
+    <string name="log_activity_logged">registrou %d minutos de %s</string>
+    <string name="feedback_activity_logged">Atividade registrada com sucesso!</string>
+    <string name="feedback_activity_log_fail">Erro ao registrar atividade.</string>
+    <string name="error_meal_description_required">Por favor, descreva a refeição.</string>
+    <string name="log_meal_logged_kcal">registrou o \'%s\' (~%dkcal)</string>
+    <string name="log_meal_logged">registrou o \'%s\'</string>
+    <string name="feedback_meal_logged">Refeição registrada com sucesso!</string>
+    <string name="feedback_meal_log_fail">Erro ao registrar refeição.</string>
+    <string name="log_sleep_logged">registrou %dh de sono com %d interrupções</string>
+    <string name="feedback_sleep_logged">Registro de sono salvo com sucesso!</string>
+    <string name="feedback_sleep_log_fail">Erro ao salvar o registro de sono.</string>
+    <string name="feedback_sleep_suggestion_unavailable">Não há histórico suficiente para uma sugestão.</string>
+    <string name="feedback_sleep_suggestion_applied">Horário sugerido preenchido!</string>
+    <string name="error_meal_analysis_unknown">Erro desconhecido na análise.</string>
+    <string name="sleep_quality_reasonable">Razoável</string>
+
+    <string name="notification_channel_name">Cronômetro de Atividade</string>
+    <string name="notification_activity_in_progress">%s em Andamento</string>
+    <string name="notification_action_pause">Pausar</string>
+    <string name="notification_action_stop">Parar</string>
+    <string name="notification_action_resume">Continuar</string>
+    <string name="timer_default_activity_type">Atividade</string>
+    <string name="log_activity_timer_stopped">registrou %d minutos de %s</string>
+
+
+
+    <string name="sleep_notes_hint">Anotações (opcional)</string>
+    <string name="dialog_hint_new_value">Novo valor</string>
+
+    <string name="update">Atualizar</string>
+
+    <string name="category_weight">Peso</string>
+    <string name="unit_kg">kg</string>
+    <string name="category_hydration">Hidratação</string>
+    <string name="unit_ml">ml</string>
+    <string name="category_activity">Atividade Física</string>
+    <string name="unit_min">min</string>
+    <string name="category_meal">Alimentação</string>
+    <string name="category_sleep">Sono</string>
+
+    <string name="sleep_quality_title">Qualidade do Sono</string>
+    <string name="date_header_format">"'Hoje,' EEEE, d 'de' MMMM"</string>
+    <string name="hydration_history_title">Histórico de Hidratação</string>
+    <string name="empty_state_no_hydration_records">Nenhum registro de hidratação encontrado.</string>
+    <string name="hydration_chart_label">Consumo de Água (ml)</string>
+
+    <string name="hydration_log_prefix">+</string>
+    <string name="hydration_log_suffix">ml</string>
+
+    <string name="activity_history_title">Histórico de Atividade</string>
+    <string name="empty_state_no_activity_records">Nenhum registro de atividade encontrado.</string>
+    <string name="activity_chart_label">Minutos de Atividade</string>
+    <string name="activity_log_suffix">minutos</string>
+
+    <string name="sleep_history_title">Histórico de Sono</string>
+    <string name="empty_state_no_sleep_records">Nenhum registro de sono encontrado.</string>
+    <string name="sleep_chart_label">Duração do Sono</string>
+    <string name="sleep_log_duration_format">%dh %dm</string>
+    <string name="date_format_dd_mmm">dd MMM</string>
+
+    <string name="meal_history_title">Histórico de Refeições</string>
+
+    <string name="meal_chart_label">Calorias (kcal)</string>
+
+    <string name="timeline_title">Linha do Tempo de %s</string>
+    <string name="timeline_filter_all">Todos</string>
+    <string name="timeline_filter_doses">Doses</string>
+    <string name="timeline_filter_notes">Anotações</string>
+    <string name="timeline_filter_wellbeing">Bem-Estar</string>
+    <string name="timeline_filter_insights">Insights da IA</string>
+
+    <string name="timeline_header_today">Hoje - %s</string>
+    <string name="timeline_header_yesterday">Ontem - %s</string>
+    <string name="timeline_header_format">%s - %s</string>
+    <string name="timeline_author_prefix">por %s</string>
+    <string name="timeline_author_system">pelo Sistema</string>
+
+    <string name="empty_state_timeline_title">Nenhuma Atividade</string>
+    <string name="empty_state_timeline_subtitle">Quando você registrar doses, anotações ou outras atividades, elas aparecerão aqui.</string>
+    <string name="empty_state_timeline_button">Registrar Atividade</string>
+
+
+
+    <!-- Sistema de Estados Padronizados -->
+    <string name="loading_default">Carregando…</string>
+    <string name="loading_message_default">Por favor, aguarde…</string>
+    <string name="empty_state_title">Nada por aqui ainda</string>
+    <string name="empty_state_message">Quando você adicionar itens, eles aparecerão aqui.</string>
+    <string name="empty_state_action">Adicionar Novo Item</string>
+    <string name="error_state_message">Ocorreu um erro ao carregar os dados.</string>
+    <string name="retry">Tentar Novamente</string>
+
+    <!-- Medicamentos -->
+    <string name="loading_medications">Carregando medicamentos…</string>
+    <string name="empty_medications">Nenhum medicamento cadastrado</string>
+    <string name="empty_medications_message">Adicione medicamentos para começar a gerenciar seu tratamento.</string>
+    <string name="add_medication">Adicionar Medicamento</string>
+    <string name="error_loading_medications">Erro ao carregar medicamentos</string>
+    <string name="saving_medication">Salvando medicamento…</string>
+    <string name="updating_medication">Atualizando medicamento…</string>
+    <string name="medication_saved_success">Medicamento salvo com sucesso!</string>
+    <string name="medication_updated_success">Medicamento atualizado com sucesso!</string>
+    <string name="duplicate_medication_warning">Medicamento Similar Encontrado</string>
+    <string name="duplicate_medication_message">Já existe(m) %1$d medicamento(s) similar(es):\n%2$s</string>
+    <string name="continue_anyway">Continuar Mesmo Assim</string>
+
+    <!-- Documentos -->
+    <string name="loading_documents">Carregando documentos…</string>
+    <string name="empty_documents">Nenhum documento cadastrado</string>
+    <string name="empty_documents_message">Adicione documentos de saúde para manter seu histórico organizado.</string>
+    <string name="add_document">Adicionar Documento</string>
+    <string name="error_loading_documents">Erro ao carregar documentos</string>
+    <string name="saving_document">Salvando documento…</string>
+    <string name="document_saved_success">Documento salvo com sucesso!</string>
+    <string name="error_saving_document">Erro ao salvar documento: %1$s</string>
+    <string name="uploading_file">Enviando arquivo…</string>
+    <string name="error_uploading_file">Erro ao enviar arquivo: %1$s</string>
+    <string name="deleting_document">Excluindo documento…</string>
+    <string name="document_deleted_success">Documento excluído com sucesso!</string>
+    <string name="error_deleting_document">Erro ao excluir documento: %1$s</string>
+
+    <!-- Agendamentos -->
+    <string name="loading_schedules">Carregando agendamentos…</string>
+    <string name="empty_schedules">Nenhum agendamento cadastrado</string>
+    <string name="empty_schedules_message">Adicione agendamentos para organizar suas consultas e exames.</string>
+    <string name="add_schedule">Adicionar Agendamento</string>
+    <string name="error_loading_schedules">Erro ao carregar agendamentos</string>
+    <string name="saving_schedule">Salvando agendamento…</string>
+    <string name="schedule_conflict_warning">Conflito de Horário</string>
+    <string name="schedule_conflict_message">Já existe um agendamento neste horário:\n%1$s</string>
+    <string name="schedule_save_anyway">Salvar Mesmo Assim</string>
+
+    <!-- Timeline -->
+    <string name="loading_timeline">Carregando timeline…</string>
+    <string name="empty_timeline">Nenhum evento registrado</string>
+    <string name="empty_timeline_message">Seus eventos de saúde aparecerão aqui.</string>
+    <string name="error_loading_timeline">Erro ao carregar timeline</string>
+
+    <!-- Histórico de Doses -->
+    <string name="loading_dose_history">Carregando histórico…</string>
+    <string name="empty_dose_history">Nenhuma dose registrada</string>
+    <string name="empty_dose_history_message">Registre suas doses para acompanhar seu tratamento.</string>
+    <string name="error_loading_dose_history">Erro ao carregar histórico de doses</string>
+
+    <!-- Validações -->
+    <string name="validation_error_title">Erros de Validação</string>
+    <string name="validation_warning_title">Avisos</string>
+    <string name="validation_fix_errors">Por favor, corrija os erros antes de continuar</string>
+    <string name="validation_field_required">Campo obrigatório</string>
+    <string name="validation_field_invalid">Campo inválido</string>
+    <string name="validation_name_required">Nome é obrigatório</string>
+    <string name="validation_name_too_short">Nome deve ter pelo menos 2 caracteres</string>
+    <string name="validation_name_too_long">Nome muito longo (máximo 100 caracteres)</string>
+    <string name="validation_dosage_required">Dosagem é obrigatória</string>
+    <string name="validation_dosage_invalid">Formato de dosagem inválido</string>
+    <string name="validation_schedules_required">Adicione pelo menos um horário</string>
+    <string name="validation_date_past">Data não pode estar no passado</string>
+    <string name="validation_date_future">Data não pode estar no futuro</string>
+    <string name="validation_file_required">Arquivo é obrigatório</string>
+    <string name="validation_file_too_large">Arquivo muito grande (máximo %1$s MB)</string>
+    <string name="validation_file_invalid_type">Tipo de arquivo não suportado</string>
+
+    <!-- Auditoria -->
+    <string name="audit_log_title">Histórico de Alterações</string>
+    <string name="audit_log_empty">Nenhuma alteração registrada</string>
+    <string name="audit_action_create">Criado</string>
+    <string name="audit_action_update">Atualizado</string>
+    <string name="audit_action_delete">Excluído</string>
+    <string name="audit_action_view">Visualizado</string>
+    <string name="audit_action_download">Baixado</string>
+    <string name="audit_action_share">Compartilhado</string>
+
+    <!-- Estoque -->
+    <string name="stock_low_warning">Estoque Baixo</string>
+    <string name="stock_low_message">O estoque de %1$s está baixo. Restam apenas %2$s unidades.</string>
+    <string name="stock_expiring_warning">Lote Próximo do Vencimento</string>
+    <string name="stock_expiring_message">O lote de %1$s vence em %2$d dias.</string>
+    <string name="add_stock">Adicionar Estoque</string>
+    <string name="adjust_stock">Ajustar Estoque</string>
+    <string name="stock_adjusted_success">Estoque ajustado com sucesso!</string>
+
+    <!-- Ações Gerais -->
+    <string name="close">Fechar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="search">Buscar</string>
+    <string name="filter">Filtrar</string>
+    <string name="sort">Ordenar</string>
+    <string name="share">Compartilhar</string>
+    <string name="download">Baixar</string>
+    <string name="view">Visualizar</string>
+
+    <!-- Mensagens de Sucesso -->
+    <string name="success">Sucesso!</string>
+    <string name="operation_success">Operação realizada com sucesso!</string>
+    <string name="changes_saved">Alterações salvas</string>
+
+    <!-- Mensagens de Erro -->
+    <string name="error">Erro</string>
+    <string name="error_generic">Ocorreu um erro inesperado</string>
+    <string name="error_network">Erro de conexão. Verifique sua internet.</string>
+    <string name="error_permission">Permissão negada</string>
+
+
+    <!-- Confirmações -->
+    <string name="confirm_delete_title">Confirmar Exclusão</string>
+    <string name="confirm_delete_message">Tem certeza que deseja excluir este item?</string>
+    <string name="confirm_archive_title">Confirmar Arquivamento</string>
+    <string name="confirm_archive_message">Tem certeza que deseja arquivar este item?</string>
+    <string name="archive">Arquivar</string>
+    <string name="unarchive">Desarquivar</string>
+
+
+</resources>
+
+

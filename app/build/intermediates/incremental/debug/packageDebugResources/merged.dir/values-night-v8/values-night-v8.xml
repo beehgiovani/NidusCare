@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="Theme.niduscare" parent="Theme.Material3.DayNight.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/md_theme_primary_dark</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary_dark</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer_dark</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer_dark</item>
+
+        
+        <item name="colorSecondary">@color/md_theme_secondary_dark</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary_dark</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer_dark</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer_dark</item>
+
+        
+        <item name="colorTertiary">@color/md_theme_tertiary_dark</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary_dark</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer_dark</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer_dark</item>
+
+        
+        <item name="colorError">@color/md_theme_error_dark</item>
+        <item name="colorOnError">@color/md_theme_onError_dark</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer_dark</item>
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer_dark</item>
+
+        
+        <item name="android:colorBackground">@color/md_theme_background_dark</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground_dark</item>
+        <item name="colorSurface">@color/md_theme_surface_dark</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface_dark</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant_dark</item>
+
+        
+        <item name="colorOutline">@color/md_theme_outline</item>
+        <item name="colorOutlineVariant">@color/border_medium</item>
+
+        
+        <item name="android:statusBarColor">@color/md_theme_background_dark</item>
+        <item name="android:navigationBarColor">@color/md_theme_surface_dark</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+        <item name="android:windowLightNavigationBar" ns1:targetApi="o_mr1">false</item>
+
+        
+        <item name="colorPrimaryVariant">@color/md_theme_primaryContainer_dark</item>
+        <item name="android:textColorPrimary">@color/md_theme_onBackground_dark</item>
+
+        
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+
+        
+        <item name="materialButtonStyle">@style/niduscare.Button</item>
+        <item name="materialCardViewStyle">@style/niduscare.Card</item>
+        <item name="textInputStyle">@style/niduscare.TextInputLayout</item>
+        <item name="chipStyle">@style/niduscare.Chip</item>
+
+        
+        <item name="elevationOverlayEnabled">true</item>
+        <item name="elevationOverlayColor">?attr/colorPrimary</item>
+
+        
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">355114439909-tl85jtgtvj71g91jvu00jomq9d3376re.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://medcontrol-1ceb9-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">355114439909</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1RpPW0x8YH3diVuymJYg9azx29VeQuRM</string>
+    <string name="google_app_id" translatable="false">1:355114439909:android:b444c0469f2c02a901b00c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1RpPW0x8YH3diVuymJYg9azx29VeQuRM</string>
+    <string name="google_storage_bucket" translatable="false">medcontrol-1ceb9.firebasestorage.app</string>
+    <string name="project_id" translatable="false">medcontrol-1ceb9</string>
+</resources>

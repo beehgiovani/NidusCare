@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.addmedicamento.AddMedicamentoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            tools:text="Adicionar Medicamento" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardStep1"
+            style="@style/niduscare.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/headerStep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:padding="16dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_edit_note"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Passo 1: Identificação" android:textAppearance="?attr/textAppearanceTitleMedium" />
+                        <TextView android:id="@+id/summaryStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?attr/textAppearanceBodySmall" android:textColor="?attr/colorOnSurfaceVariant" tools:text="Paracetamol, Oral"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/iconStep1" android:layout_width="wrap_content" android:layout_height="wrap_content" tools:src="@drawable/ic_check_circle" app:tint="?attr/colorPrimary"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contentStep1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:visibility="visible">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_nome"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nome do Medicamento*">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextNome"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapWords" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/suggestionCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:cardBackgroundColor="?attr/colorSecondaryContainer"
+                        app:strokeWidth="0dp"
+                        android:visibility="gone"
+                        tools:visibility="gone">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="12dp">
+                            <ImageView
+                                android:id="@+id/suggestionIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_info"
+                                app:tint="?attr/colorOnSecondaryContainer"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+                            <TextView
+                                android:id="@+id/suggestionTitle"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:text="Medicamento já cadastrado"
+                                android:textAppearance="?attr/textAppearanceTitleSmall"
+                                android:textColor="?attr/colorOnSecondaryContainer"
+                                app:layout_constraintStart_toEndOf="@id/suggestionIcon"
+                                app:layout_constraintEnd_toStartOf="@+id/buttonDismissSuggestion"
+                                app:layout_constraintTop_toTopOf="parent" />
+                            <TextView
+                                android:id="@+id/suggestionDetailsText"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?attr/textAppearanceBodyMedium"
+                                android:textColor="?attr/colorOnSecondaryContainer"
+                                app:layout_constraintStart_toStartOf="@id/suggestionTitle"
+                                app:layout_constraintEnd_toEndOf="@id/suggestionTitle"
+                                app:layout_constraintTop_toBottomOf="@id/suggestionTitle"
+                                tools:text="Encontrado para: Maria" />
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/buttonCopyData"
+                                style="@style/Widget.Material3.Button.TextButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:text="Copiar Dados"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@id/suggestionDetailsText"/>
+                            <ImageButton
+                                android:id="@+id/buttonDismissSuggestion"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_close"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                app:tint="?attr/colorOnSecondaryContainer"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewSearchResults"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        tools:itemCount="2"
+                        tools:listitem="@layout/medicamento_database_item" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Tipo de Administração*"
+                        android:textAppearance="?attr/textAppearanceLabelLarge" />
+                    <RadioGroup
+                        android:id="@+id/radioGroupTipoMedicamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp">
+                        <RadioButton android:id="@+id/radioOral" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Oral" android:checked="true"/>
+                        <RadioButton android:id="@+id/radioTopico" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Tópico"/>
+                        <RadioButton android:id="@+id/radioInjetavel" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Injetável"/>
+                    </RadioGroup>
+
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/switchUsoEsporadico"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Uso esporádico (Salvar na Farmacinha)"
+                        android:textAppearance="?attr/textAppearanceBodyLarge"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardStep2"
+            style="@style/niduscare.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/headerStep2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:padding="16dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_injection"/>
+
+                    <LinearLayout
+                        android:layout_width="272dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Passo 2: Dosagem e Frequência"
+                            android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                        <TextView
+                            android:id="@+id/summaryStep2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?attr/textAppearanceBodySmall"
+                            android:textColor="?attr/colorOnSurfaceVariant"
+                            tools:text="1 comprimido, a cada 8h" />
+                    </LinearLayout>
+                    <ImageView android:id="@+id/iconStep2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_more"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contentStep2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dosagem"
+                        android:textAppearance="?attr/textAppearanceLabelLarge"
+                        android:layout_marginBottom="8dp"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupTipoDosagem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioButton android:id="@+id/radioDoseFixa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dose Fixa" android:checked="true"/>
+                        <RadioButton android:id="@+id/radioDoseManual" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dose Manual (Variável)"/>
+                        <RadioButton android:id="@+id/radioDoseCalculada" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dose Calculada (Insulina)"/>
+                    </RadioGroup>
+
+                    <LinearLayout
+                        android:id="@+id/layoutDoseFixa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:baselineAligned="false">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/til_dosagem_valor"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="8dp"
+                            android:hint="Quantidade*">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextDosagemValor"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/til_dosagem_unidade"
+                            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:hint="Unidade*">
+                            <AutoCompleteTextView
+                                android:id="@+id/autoCompleteUnidade"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="none"
+                                tools:ignore="LabelFor" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutDoseCalculada"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        android:layout_marginTop="16dp">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:hint="Glicemia Alvo (mg/dL)">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextGlicemiaAlvo"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            app:helperText="Ex: 1un de insulina reduz 50 mg/dL"
+                            android:hint="Fator de Sensibilidade">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextFatorSensibilidade"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:helperText="Ex: 1un de insulina para cada 15g de carboidrato"
+                            android:hint="Ratio Carboidratos">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextRatioCarboidrato"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="16dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Com que frequência?"
+                        android:textAppearance="?attr/textAppearanceLabelLarge"/>
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipGroupFrequenciaTipo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:singleSelection="true"
+                        app:selectionRequired="true">
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipDiariamente"
+                            style="@style/Widget.Material3.Chip.Filter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Diariamente"/>
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipDiasDaSemana"
+                            style="@style/Widget.Material3.Chip.Filter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Dias da Semana"/>
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chipIntervaloDias"
+                            style="@style/Widget.Material3.Chip.Filter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Intervalo de Dias"/>
+                    </com.google.android.material.chip.ChipGroup>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp">
+                        <LinearLayout
+                            android:id="@+id/layoutFrequenciaDiaria"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" />
+                        <LinearLayout
+                            android:id="@+id/layoutFrequenciaSemanal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Selecione os dias:"
+                                android:textAppearance="?attr/textAppearanceBodyMedium"/>
+                            <com.google.android.material.chip.ChipGroup
+                                android:id="@+id/chipGroupDiasSemana"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:singleLine="true">
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipSeg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Seg"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipTer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Ter"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipQua" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Qua"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipQui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Qui"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipSex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Sex"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipSab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Sáb"/>
+                                <com.google.android.material.chip.Chip style="@style/Widget.Material3.Chip.Filter" android:id="@+id/chipDom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkable="true" android:text="Dom"/>
+                            </com.google.android.material.chip.ChipGroup>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/layoutFrequenciaIntervalo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:visibility="gone">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="A cada"
+                                android:textAppearance="?attr/textAppearanceBodyMedium"/>
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/tilFrequenciaValor"
+                                style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="8dp">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/editTextFrequenciaValor"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:inputType="number"
+                                    android:text="2"
+                                    android:textAlignment="center"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="dia(s)"
+                                android:textAppearance="?attr/textAppearanceBodyMedium"/>
+                        </LinearLayout>
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="8dp">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Em quais horários?*"
+                            android:textAppearance="?attr/textAppearanceLabelLarge" />
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/buttonAddIntervalo"
+                            style="@style/Widget.Material3.Button.TextButton.Icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Padrão"
+                            app:icon="@drawable/ic_schedule" />
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/buttonAddHorario"
+                            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Adicionar"
+                            app:icon="@drawable/ic_add_circle" />
+                    </LinearLayout>
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipGroupHorarios"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:chipSpacingVertical="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardStep3"
+            style="@style/niduscare.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/headerStep3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:padding="16dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_schedule"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Passo 3: Duração e Notificações" android:textAppearance="?attr/textAppearanceTitleMedium" />
+                        <TextView android:id="@+id/summaryStep3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?attr/textAppearanceBodySmall" android:textColor="?attr/colorOnSurfaceVariant" tools:text="Por 7 dias, com notificações"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/iconStep3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_more"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/contentStep3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:visibility="gone">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_data_inicio"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Data de Início do Tratamento*"
+                        app:endIconMode="custom"
+                        app:endIconDrawable="@drawable/ic_calendar_today">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDataInicio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Término do Tratamento*"
+                        android:textAppearance="?attr/textAppearanceLabelLarge"/>
+                    <RadioGroup
+                        android:id="@+id/radioGroupTermino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+                        <RadioButton
+                            android:id="@+id/radioTerminoContinuo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Uso Contínuo (sem data de término)"/>
+                        <RadioButton
+                            android:id="@+id/radioTerminoDuracao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Definir Duração"/>
+                        <RadioButton
+                            android:id="@+id/radioTerminoDataFim"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Definir Data de Término"/>
+                    </RadioGroup>
+                    <LinearLayout
+                        android:id="@+id/layoutDuracao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:visibility="gone"
+                        android:baselineAligned="false">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/til_duracao"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="8dp"
+                            android:hint="Duração">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextDuracao"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/til_duracao_unidade"
+                            style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:hint="Unidade">
+                            <AutoCompleteTextView
+                                android:id="@+id/autoCompleteUnidadeDuracao"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="none"
+                                tools:ignore="LabelFor" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilDataTermino"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:hint="Data de Término"
+                        android:visibility="gone"
+                        app:endIconMode="custom"
+                        app:endIconDrawable="@drawable/ic_calendar_today">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextDataTermino"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="16dp"/>
+                    <com.google.android.material.materialswitch.MaterialSwitch
+                        android:id="@+id/checkboxNotificacao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="Ativar notificações para este remédio"
+                        android:textAppearance="?attr/textAppearanceBodyLarge" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardStep4"
+            style="@style/niduscare.Card.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/headerStep4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:padding="16dp">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_inventory"/>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginStart="16dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Passo 4: Detalhes Opcionais" android:textAppearance="?attr/textAppearanceTitleMedium" />
+                        <TextView android:id="@+id/summaryStep4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?attr/textAppearanceBodySmall" android:textColor="?attr/colorOnSurfaceVariant" tools:text="Estoque adicionado"/>
+                    </LinearLayout>
+                    <ImageView android:id="@+id/iconStep4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_more"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contentStep4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:visibility="gone">
+                    <LinearLayout
+                        android:id="@+id/layoutLocaisAplicacao"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        tools:visibility="visible">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tilNovoLocal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Adicionar local de aplicação">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextNovoLocal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="textCapSentences"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/buttonAddLocal"
+                            style="@style/Widget.Material3.Button.TextButton.Icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end"
+                            android:text="Adicionar Local"/>
+                        <com.google.android.material.chip.ChipGroup
+                            android:id="@+id/chipGroupLocais"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:chipSpacingVertical="4dp"/>
+                        <com.google.android.material.divider.MaterialDivider
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="16dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Controle de Estoque e Validade"
+                        android:textAppearance="?attr/textAppearanceLabelLarge"
+                        android:layout_marginBottom="8dp"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerViewLotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        tools:itemCount="1"
+                        tools:listitem="@layout/add_medicamento_lote_item"/>
+                    <com.google.android.material.divider.MaterialDivider
+                        android:id="@+id/dividerLotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="8dp"
+                        android:visibility="gone"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="bottom">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tilLoteQuantidade"
+                            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Qtd.">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextLoteQuantidade"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="numberDecimal"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/tilLoteValidade"
+                            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:layout_marginStart="8dp"
+                            android:hint="Validade"
+                            app:endIconMode="custom"
+                            app:endIconDrawable="@drawable/ic_calendar_today">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/editTextLoteValidade"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:focusable="false"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/buttonAddLote"
+                            style="@style/Widget.Material3.Button.IconButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:contentDescription="Adicionar Lote"
+                            app:icon="@drawable/ic_add"/>
+                    </LinearLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_nivel_alerta"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:hint="Alertar quando restarem (ex: 5 unidades)">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextNivelAlerta"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="16dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_principio_ativo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Princípio Ativo">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextPrincipioAtivo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapWords" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_classe_terapeutica"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:hint="Classe Terapêutica">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextClasseTerapeutica"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textCapWords" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/til_anotacoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Anotações">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextAnotacoes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:inputType="textMultiLine"
+                            android:lines="3" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCancelar"
+                style="@style/niduscare.Button.Outlined"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="Cancelar" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonSalvar"
+                style="@style/niduscare.Button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Salvar Medicamento" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

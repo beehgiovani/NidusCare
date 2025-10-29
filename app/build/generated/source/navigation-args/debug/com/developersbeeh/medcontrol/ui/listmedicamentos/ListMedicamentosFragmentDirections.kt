@@ -1,0 +1,290 @@
+package com.developersbeeh.medcontrol.ui.listmedicamentos
+
+import android.os.Bundle
+import android.os.Parcelable
+import androidx.navigation.ActionOnlyNavDirections
+import androidx.navigation.NavDirections
+import com.developersbeeh.medcontrol.NavGraphDirections
+import com.developersbeeh.medcontrol.R
+import com.developersbeeh.medcontrol.`data`.model.Dependente
+import com.developersbeeh.medcontrol.`data`.model.Medicamento
+import java.io.Serializable
+import kotlin.Boolean
+import kotlin.Int
+import kotlin.String
+import kotlin.Suppress
+
+public class ListMedicamentosFragmentDirections private constructor() {
+  private data class ActionListMedicamentosFragmentToAddMedicamentoFragment(
+    public val dependentId: String,
+    public val dependentName: String,
+    public val isCaregiver: Boolean,
+    public val medicamento: Medicamento? = null,
+  ) : NavDirections {
+    public override val actionId: Int =
+        R.id.action_listMedicamentosFragment_to_addMedicamentoFragment
+
+    public override val arguments: Bundle
+      @Suppress("CAST_NEVER_SUCCEEDS")
+      get() {
+        val result = Bundle()
+        if (Parcelable::class.java.isAssignableFrom(Medicamento::class.java)) {
+          result.putParcelable("medicamento", this.medicamento as Parcelable?)
+        } else if (Serializable::class.java.isAssignableFrom(Medicamento::class.java)) {
+          result.putSerializable("medicamento", this.medicamento as Serializable?)
+        }
+        result.putString("dependentId", this.dependentId)
+        result.putString("dependentName", this.dependentName)
+        result.putBoolean("isCaregiver", this.isCaregiver)
+        return result
+      }
+  }
+
+  private data class ActionListMedicamentosFragmentToAnalysisResultFragment(
+    public val prompt: String,
+    public val dependentId: String,
+    public val dependentName: String,
+    public val analysisResult: String? = null,
+  ) : NavDirections {
+    public override val actionId: Int =
+        R.id.action_listMedicamentosFragment_to_analysisResultFragment
+
+    public override val arguments: Bundle
+      get() {
+        val result = Bundle()
+        result.putString("prompt", this.prompt)
+        result.putString("analysisResult", this.analysisResult)
+        result.putString("dependentId", this.dependentId)
+        result.putString("dependentName", this.dependentName)
+        return result
+      }
+  }
+
+  private data class ActionListMedicamentosFragmentToFarmacinhaFragment(
+    public val dependentId: String? = null,
+    public val dependentName: String? = null,
+  ) : NavDirections {
+    public override val actionId: Int = R.id.action_listMedicamentosFragment_to_farmacinhaFragment
+
+    public override val arguments: Bundle
+      get() {
+        val result = Bundle()
+        result.putString("dependentId", this.dependentId)
+        result.putString("dependentName", this.dependentName)
+        return result
+      }
+  }
+
+  private data class ActionListMedicamentosFragmentToPrescriptionScannerFragment(
+    public val dependentId: String,
+    public val dependentName: String,
+  ) : NavDirections {
+    public override val actionId: Int =
+        R.id.action_listMedicamentosFragment_to_prescriptionScannerFragment
+
+    public override val arguments: Bundle
+      get() {
+        val result = Bundle()
+        result.putString("dependentId", this.dependentId)
+        result.putString("dependentName", this.dependentName)
+        return result
+      }
+  }
+
+  private data class ActionListMedicamentosFragmentToDependentDiaryFragment(
+    public val dependentId: String,
+    public val dependentName: String,
+  ) : NavDirections {
+    public override val actionId: Int =
+        R.id.action_listMedicamentosFragment_to_dependentDiaryFragment
+
+    public override val arguments: Bundle
+      get() {
+        val result = Bundle()
+        result.putString("dependentId", this.dependentId)
+        result.putString("dependentName", this.dependentName)
+        return result
+      }
+  }
+
+  public companion object {
+    public fun actionListMedicamentosFragmentToAddMedicamentoFragment(
+      dependentId: String,
+      dependentName: String,
+      isCaregiver: Boolean,
+      medicamento: Medicamento? = null,
+    ): NavDirections = ActionListMedicamentosFragmentToAddMedicamentoFragment(dependentId,
+        dependentName, isCaregiver, medicamento)
+
+    public fun actionListMedicamentosFragmentToAnalysisResultFragment(
+      prompt: String,
+      dependentId: String,
+      dependentName: String,
+      analysisResult: String? = null,
+    ): NavDirections = ActionListMedicamentosFragmentToAnalysisResultFragment(prompt, dependentId,
+        dependentName, analysisResult)
+
+    public fun actionListMedicamentosFragmentToSearchMedicamentosFragment(): NavDirections =
+        ActionOnlyNavDirections(R.id.action_listMedicamentosFragment_to_searchMedicamentosFragment)
+
+    public fun actionListMedicamentosFragmentToFarmacinhaFragment(dependentId: String? = null,
+        dependentName: String? = null): NavDirections =
+        ActionListMedicamentosFragmentToFarmacinhaFragment(dependentId, dependentName)
+
+    public fun actionListMedicamentosFragmentToPrescriptionScannerFragment(dependentId: String,
+        dependentName: String): NavDirections =
+        ActionListMedicamentosFragmentToPrescriptionScannerFragment(dependentId, dependentName)
+
+    public fun actionListMedicamentosFragmentToDependentDiaryFragment(dependentId: String,
+        dependentName: String): NavDirections =
+        ActionListMedicamentosFragmentToDependentDiaryFragment(dependentId, dependentName)
+
+    public fun actionGlobalToHydrationTrackerFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToHydrationTrackerFragment(dependentId)
+
+    public fun actionGlobalToMealTrackerFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToMealTrackerFragment(dependentId)
+
+    public fun actionGlobalToWeightTrackerFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToWeightTrackerFragment(dependentId)
+
+    public fun actionGlobalToPhysicalActivityTrackerFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToPhysicalActivityTrackerFragment(dependentId)
+
+    public fun actionGlobalToSleepTrackerFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToSleepTrackerFragment(dependentId)
+
+    public fun actionGlobalToPharmacySelectionFragment(): NavDirections =
+        NavGraphDirections.actionGlobalToPharmacySelectionFragment()
+
+    public fun actionGlobalToHealthGoalsFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToHealthGoalsFragment(dependentId)
+
+    public fun actionSplashFragmentToDashboardDependenteFragment(dependentId: String,
+        dependentName: String): NavDirections =
+        NavGraphDirections.actionSplashFragmentToDashboardDependenteFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToWellbeingDiaryFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToWellbeingDiaryFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToGeriatricCareFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToGeriatricCareFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToChatFragment(dependentId: String, dependentName: String): NavDirections
+        = NavGraphDirections.actionGlobalToChatFragment(dependentId, dependentName)
+
+    public fun actionGlobalToVaccinationCardFragment(
+      dependentId: String,
+      dependentName: String,
+      dependentDob: String,
+    ): NavDirections = NavGraphDirections.actionGlobalToVaccinationCardFragment(dependentId,
+        dependentName, dependentDob)
+
+    public fun actionGlobalToEducationCenterFragment(): NavDirections =
+        NavGraphDirections.actionGlobalToEducationCenterFragment()
+
+    public fun actionGlobalToDependentDiaryFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToDependentDiaryFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToAchievementsFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToAchievementsFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToAdherenceReportFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToAdherenceReportFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToCycleTrackerFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToCycleTrackerFragment(dependentId,
+        dependentName)
+
+    public fun actionLoginFragmentToCompleteProfileFragment(): NavDirections =
+        NavGraphDirections.actionLoginFragmentToCompleteProfileFragment()
+
+    public fun actionGlobalToCompleteProfileFragment(): NavDirections =
+        NavGraphDirections.actionGlobalToCompleteProfileFragment()
+
+    public fun actionGlobalToAddEditDependentFragment(dependente: Dependente? = null): NavDirections
+        = NavGraphDirections.actionGlobalToAddEditDependentFragment(dependente)
+
+    public fun actionGlobalToPrescriptionScannerFragment(dependentId: String,
+        dependentName: String): NavDirections =
+        NavGraphDirections.actionGlobalToPrescriptionScannerFragment(dependentId, dependentName)
+
+    public fun actionGlobalToAnalysisResultFragment(
+      dependentId: String,
+      dependentName: String,
+      prompt: String? = null,
+      analysisResult: String? = null,
+    ): NavDirections = NavGraphDirections.actionGlobalToAnalysisResultFragment(dependentId,
+        dependentName, prompt, analysisResult)
+
+    public fun actionGlobalToManageFamilyFragment(): NavDirections =
+        NavGraphDirections.actionGlobalToManageFamilyFragment()
+
+    public fun actionGlobalToArchivedMedicationsFragment(dependentId: String,
+        dependentName: String): NavDirections =
+        NavGraphDirections.actionGlobalToArchivedMedicationsFragment(dependentId, dependentName)
+
+    public fun actionGlobalToReportsFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToReportsFragment(dependentId, dependentName)
+
+    public fun actionGlobalToFarmacinhaFragment(dependentId: String? = null, dependentName: String?
+        = null): NavDirections = NavGraphDirections.actionGlobalToFarmacinhaFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToManageCaregiversFragment(dependente: Dependente? = null): NavDirections
+        = NavGraphDirections.actionGlobalToManageCaregiversFragment(dependente)
+
+    public fun actionGlobalToHealthScheduleFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToHealthScheduleFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToPremiumPlansFragment(): NavDirections =
+        NavGraphDirections.actionGlobalToPremiumPlansFragment()
+
+    public fun actionGlobalLogout(): NavDirections = NavGraphDirections.actionGlobalLogout()
+
+    public fun actionGlobalToDashboard(): NavDirections =
+        NavGraphDirections.actionGlobalToDashboard()
+
+    public fun actionGlobalToMedications(dependentId: String, isCaregiver: Boolean = true):
+        NavDirections = NavGraphDirections.actionGlobalToMedications(dependentId, isCaregiver)
+
+    public fun actionGlobalToReminders(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToReminders(dependentId)
+
+    public fun actionGlobalToHealthNotes(dependentId: String, dependentName: String): NavDirections
+        = NavGraphDirections.actionGlobalToHealthNotes(dependentId, dependentName)
+
+    public fun actionGlobalToProfile(): NavDirections = NavGraphDirections.actionGlobalToProfile()
+
+    public fun actionGlobalToSettings(): NavDirections = NavGraphDirections.actionGlobalToSettings()
+
+    public fun actionGlobalToAnalytics(dependentId: String, dependentName: String): NavDirections =
+        NavGraphDirections.actionGlobalToAnalytics(dependentId, dependentName)
+
+    public fun actionGlobalToDoseHistoryFragment(dependentId: String): NavDirections =
+        NavGraphDirections.actionGlobalToDoseHistoryFragment(dependentId)
+
+    public fun actionGlobalToAddMedicamentoFragment(
+      dependentId: String,
+      dependentName: String,
+      isCaregiver: Boolean,
+      medicamento: Medicamento? = null,
+    ): NavDirections = NavGraphDirections.actionGlobalToAddMedicamentoFragment(dependentId,
+        dependentName, isCaregiver, medicamento)
+
+    public fun actionGlobalToTimelineFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToTimelineFragment(dependentId,
+        dependentName)
+
+    public fun actionGlobalToHealthDocumentsFragment(dependentId: String, dependentName: String):
+        NavDirections = NavGraphDirections.actionGlobalToHealthDocumentsFragment(dependentId,
+        dependentName)
+  }
+}

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="activity_suggestions">
+        <item>Caminhada</item>
+        <item>Corrida</item>
+        <item>Ciclismo</item>
+        <item>Natação</item>
+        <item>Musculação</item>
+        <item>Yoga</item>
+        <item>Pilates</item>
+        <item>Dança</item>
+        <item>Futebol</item>
+        <item>Basquete</item>
+        <item>Tênis</item>
+        <item>Alongamento</item>
+    </string-array>
+    <color name="Green_aviso">#016e07</color>
+    <color name="accent_color">#56CCF2</color>
+    <color name="accent_dark">#1976D2</color>
+    <color name="accent_light">#82B1FF</color>
+    <color name="background_blue_tint">#F3F8FF</color>
+    <color name="background_light">#FAFBFC</color>
+    <color name="background_soft">#F5F7FA</color>
+    <color name="black">#000000</color>
+    <color name="border_light">#E0E0E0</color>
+    <color name="border_medium">#B0B0B0</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1A2196F3</color>
+    <color name="colorAccent">#56CCF2</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorError">#E53935</color>
+    <color name="colorOnBackground">#2E4E6A</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#56CCF2</color>
+    <color name="colorOnSurface">#2E4E6A</color>
+    <color name="colorPrimary">#1E4060</color>
+    <color name="colorPrimaryDark">#0C253B</color>
+    <color name="colorPrimaryLight">#A8C5E5</color>
+    <color name="colorSuccess">#6BCF8E</color>
+    <color name="colorSurface">#F4F7FA</color>
+    <color name="colorWarning">#FFCA28</color>
+    <color name="dark_blue_subtle">#2E4E6A</color>
+    <color name="deep_blue">#0A2A47</color>
+    <color name="dialog_background">#FFFFFF</color>
+    <color name="disabled_text">#B0BEC5</color>
+    <color name="divider">#D0D0D0</color>
+    <color name="dose_afternoon">#FF8F00</color>
+    <color name="dose_evening">#5C6BC0</color>
+    <color name="dose_morning">#FFB300</color>
+    <color name="dose_night">#3949AB</color>
+    <color name="electric_blue">#448AFF</color>
+    <color name="electric_blue_light">#83A9FF</color>
+    <color name="elevation_shadow">#0A000000</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="error_on_surface">#B71C1C</color>
+    <color name="error_red">#D32F2F</color>
+    <color name="focused_state">#202196F3</color>
+    <color name="gradient_card_end">#F3F8FF</color>
+    <color name="gradient_card_start">#FFFFFF</color>
+    <color name="gradient_end">#56CCF2</color>
+    <color name="gradient_secondary_end">#3949AB</color>
+    <color name="gradient_secondary_start">#5C6BC0</color>
+    <color name="gradient_soft_end">#BBDEFB</color>
+    <color name="gradient_soft_start">#E3F2FD</color>
+    <color name="gradient_start">#1E4060</color>
+    <color name="gradiente">#79c45a</color>
+    <color name="hint_text">#78909C</color>
+    <color name="hover_state">#102196F3</color>
+    <color name="info_blue">#2E4E6A</color>
+    <color name="info_light">#E3F2FD</color>
+    <color name="info_on_surface">#1565C0</color>
+    <color name="light_blue">#81D4FA</color>
+    <color name="light_blue_pale">#E1F5FE</color>
+    <color name="light_blue_soft">#B3E5FC</color>
+    <color name="light_gray_subtle">#F0F4F7</color>
+    <color name="md_theme_background">#FAFBFC</color>
+    <color name="md_theme_background_dark">#121212</color>
+    <color name="md_theme_error">#F44336</color>
+    <color name="md_theme_errorContainer">#FFEBEE</color>
+    <color name="md_theme_errorContainer_dark">#93000A</color>
+    <color name="md_theme_error_dark">#FFB4AB</color>
+    <color name="md_theme_inverseOnSurface">#FAFBFC</color>
+    <color name="md_theme_inversePrimary">#A9C9F5</color>
+    <color name="md_theme_inverseSurface">#37474F</color>
+    <color name="md_theme_onBackground">#2E4E6A</color>
+    <color name="md_theme_onBackground_dark">#E3E3E3</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_onErrorContainer">#B71C1C</color>
+    <color name="md_theme_onErrorContainer_dark">#FFDAD6</color>
+    <color name="md_theme_onError_dark">#690005</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_onPrimaryContainer">#0D47A1</color>
+    <color name="md_theme_onPrimaryContainer_dark">#D1E4FF</color>
+    <color name="md_theme_onPrimary_dark">#FFFFFF</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_onSecondaryContainer">#283593</color>
+    <color name="md_theme_onSecondaryContainer_dark">#D1D9FF</color>
+    <color name="md_theme_onSecondary_dark">#222F4F</color>
+    <color name="md_theme_onSurface">#2E4E6A</color>
+    <color name="md_theme_onSurfaceVariant">#546E7A</color>
+    <color name="md_theme_onSurfaceVariant_dark">#C3C6CF</color>
+    <color name="md_theme_onSurface_dark">#E3E3E3</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_onTertiaryContainer">#263238</color>
+    <color name="md_theme_onTertiaryContainer_dark">#D5E4F0</color>
+    <color name="md_theme_onTertiary_dark">#2D3941</color>
+    <color name="md_theme_outline">#CFD8DC</color>
+    <color name="md_theme_primary">#2E4E6A</color>
+    <color name="md_theme_primaryContainer">#A9C9F5</color>
+    <color name="md_theme_primaryContainer_dark">#2B5986</color>
+    <color name="md_theme_primary_dark">#4A88C1</color>
+    <color name="md_theme_secondary">#5C6BC0</color>
+    <color name="md_theme_secondaryContainer">#C5CAE9</color>
+    <color name="md_theme_secondaryContainer_dark">#404C70</color>
+    <color name="md_theme_secondary_dark">#8B9BC9</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_surfaceTint">#2E4E6A</color>
+    <color name="md_theme_surfaceTintColor">#2E4E6A</color>
+    <color name="md_theme_surfaceVariant">#F5F7FA</color>
+    <color name="md_theme_surfaceVariant_dark">#43474E</color>
+    <color name="md_theme_surface_dark">#1E1E1E</color>
+    <color name="md_theme_tertiary">#78909C</color>
+    <color name="md_theme_tertiaryContainer">#ECEFF1</color>
+    <color name="md_theme_tertiaryContainer_dark">#465863</color>
+    <color name="md_theme_tertiary_dark">#A0B1C0</color>
+    <color name="medication_injection">#9C27B0</color>
+    <color name="medication_missed">#FF5722</color>
+    <color name="medication_oral">#2E4E6A</color>
+    <color name="medication_other">#607D8B</color>
+    <color name="medication_paused">#9E9E9E</color>
+    <color name="medication_pending">#FF9800</color>
+    <color name="medication_taken">#4CAF50</color>
+    <color name="medication_topical">#6BCF8E</color>
+    <color name="onboarding_background">#DEEBFD</color>
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#60FFFFFF</color>
+    <color name="premium_gold">#FFC107</color>
+    <color name="pressed_state">#102196F3</color>
+    <color name="primary_color">#2E4E6A</color>
+    <color name="primary_dark">#0A2A47</color>
+    <color name="primary_light">#A9C9F5</color>
+    <color name="primary_text">#1E4060</color>
+    <color name="primary_variant">#1E88E5</color>
+    <color name="ripple_color">#202196F3</color>
+    <color name="secondary_color">#5C6BC0</color>
+    <color name="secondary_dark">#3949AB</color>
+    <color name="secondary_light">#C5CAE9</color>
+    <color name="secondary_text">#4A5A6A</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+    <color name="shimmer_base">#F0F0F0</color>
+    <color name="shimmer_highlight">#E0E0E0</color>
+    <color name="shimmer_placeholder">#DDDDDD</color>
+    <color name="sky_blue">#cfe2f3</color>
+    <color name="soft_blue">#64B5F6</color>
+    <color name="soft_blue_dark">#1565C0</color>
+    <color name="soft_blue_light">#E3F2FD</color>
+    <color name="splash_background_color">#FFFFFF</color>
+    <color name="status_success_green">#1E8E3E</color>
+    <color name="status_warning_orange">#F97D09</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="success_light">#E8F5E8</color>
+    <color name="success_on_surface">#2E7D32</color>
+    <color name="surface_elevated">#F8FAFE</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="text_on_accent">#FFFFFF</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="urgency_critical">#D32F2F</color>
+    <color name="urgency_high">#F57C00</color>
+    <color name="urgency_low">#388E3C</color>
+    <color name="urgency_medium">#1976D2</color>
+    <color name="warning_light">#FFF3E0</color>
+    <color name="warning_on_surface">#E65100</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="card_stroke_width_collapsed">1dp</dimen>
+    <dimen name="card_stroke_width_expanded">2dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <item name="action_show_analysis_dialog" type="id"/>
+    <item name="action_trigger_emergency" type="id"/>
+    <string name="add_at_least_one_time">Adicione pelo menos um horário</string>
+    <string name="add_dependent_title">Adicionar Novo Dependente</string>
+    <string name="add_medication_title">Adicionar Medicamento</string>
+    <string name="add_schedule_title">Novo Agendamento</string>
+    <string name="ai_disclaimer">Esta análise é gerada por inteligência artificial e não substitui uma consulta médica. Sempre consulte um profissional de saúde para diagnósticos e tratamentos.</string>
+    <string name="analysis_error_text">Ocorreu um erro ao gerar a análise.</string>
+    <string name="analysis_loading_text">A nossa IA está a analisar os dados...</string>
+    <string name="app_name">NidusCare</string>
+    <string name="cancel">Cancelar</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">0e1a8e91908e454d8d4a2e2eb50c7c04</string>
+    <string name="com.google.firebase.crashlytics.version_control_info">"generate_error_reason: NO_SUPPORTED_VCS_FOUND\n"</string>
+    <string name="correlations_title">Correlações</string>
+    <string name="data_copied_success">Dados copiados. Revise e salve.</string>
+    <string name="default_web_client_id" translatable="false">355114439909-tl85jtgtvj71g91jvu00jomq9d3376re.apps.googleusercontent.com</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_schedule_message">Tem certeza que deseja excluir \'%1$s\'?</string>
+    <string name="delete_schedule_title">Excluir Agendamento?</string>
+    <string name="dependent_saved_success">Dependente salvo com sucesso!</string>
+    <string name="edit">Editar</string>
+    <string name="edit_dependent_title">Editar Dependente</string>
+    <string name="edit_medication_title">Editar Medicamento</string>
+    <string name="edit_schedule_title">Editar Agendamento</string>
+    <string name="end_date_before_start_error">A data de término não pode ser anterior à data de início.</string>
+    <string name="error_icon_description">Ícone de erro</string>
+    <string name="error_saving_dependent">Erro ao salvar: %1$s</string>
+    <string name="error_saving_schedule">Erro: %1$s</string>
+    <string name="exact_alarm_permission_message">Para garantir que os lembretes funcionem corretamente, o aplicativo precisa de permissão para agendar alarmes exatos.</string>
+    <string name="firebase_database_url" translatable="false">https://medcontrol-1ceb9-default-rtdb.firebaseio.com</string>
+    <string name="first_dose_time_title">Qual o horário da 1ª dose de %1$s?</string>
+    <string name="gcm_defaultSenderId" translatable="false">355114439909</string>
+    <string name="google_api_key" translatable="false">AIzaSyC1RpPW0x8YH3diVuymJYg9azx29VeQuRM</string>
+    <string name="google_app_id" translatable="false">1:355114439909:android:b444c0469f2c02a901b00c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC1RpPW0x8YH3diVuymJYg9azx29VeQuRM</string>
+    <string name="google_places_api_key" translatable="false">AIzaSyAHFEki1_LL5R8cxjQPjuvIkM4sLtzOIkM</string>
+    <string name="google_storage_bucket" translatable="false">medcontrol-1ceb9.firebasestorage.app</string>
+    <string name="grant">Conceder</string>
+    <string name="interactions_title">Interações Medicamentosas</string>
+    <string name="invalid_date_format">Formato de data inválido.</string>
+    <string name="invalid_schedule_type">Tipo de agendamento inválido.</string>
+    <string name="local_required">Digite um nome para o local.</string>
+    <string name="lote_invalid_data">Preencha a quantidade e a validade do lote.</string>
+    <string name="lote_validity_date">Data de Validade do Lote</string>
+    <string name="medication_saved">Medicamento salvo com sucesso!</string>
+    <string name="medication_saved_sporadic">Medicamento salvo na sua Farmacinha!</string>
+    <string name="name_required_error">O nome é obrigatório</string>
+    <string name="not_now">Agora não</string>
+    <string name="observations_title">Observações Adicionais</string>
+    <string name="permission_denied">Permissão de notificação negada.</string>
+    <string name="permission_denied_add_schedule">Você não tem permissão para adicionar agendamentos. Para mais informações, contate seu cuidador.</string>
+    <string name="permission_denied_tooltip">Permissão para registrar doses negada pelo cuidador.</string>
+    <string name="permission_needed_title">Permissão Necessária</string>
+    <string name="predictive_analysis_title">Análise Preditiva</string>
+    <string name="project_id" translatable="false">medcontrol-1ceb9</string>
+    <string name="quantity_hint">Quantidade*</string>
+    <string name="required_field">Campo obrigatório</string>
+    <string name="required_for_fixed_dose">Obrigatório para dose fixa</string>
+    <string name="retry_button_text">Tentar Novamente</string>
+    <string name="save_pdf_button_text">Salvar PDF</string>
+    <string name="schedule_date_past_error">A data e a hora do agendamento não podem ser no passado.</string>
+    <string name="schedule_date_picker_title">Data do Agendamento</string>
+    <string name="schedule_saved_success">Agendamento salvo com sucesso!</string>
+    <string name="schedule_title_for">Agenda de %1$s</string>
+    <string name="select_dob_title">Selecione a Data de Nascimento</string>
+    <string name="select_end_date_error">Por favor, selecione uma data de término.</string>
+    <string name="select_interval_pattern">Escolha um padrão de intervalo</string>
+    <string name="share_button_text">Partilhar</string>
+    <string name="side_effects_title">Efeitos Colaterais</string>
+    <string name="summary_icon_desc">Ícone de resumo do dia</string>
+    <string name="treatment_end_date_title">Data de Término do Tratamento</string>
+    <string name="treatment_start_date">Data de Início do Tratamento</string>
+    <string name="unit_hint">Unidade (ex: comprimido)</string>
+    <string name="update_button">Atualizar Medicamento</string>
+    <string name="vaccine_late">Atrasada</string>
+    <string name="vaccine_next">Próxima</string>
+    <string name="vaccine_ok">OK</string>
+    <string name="vaccine_taken">Tomada</string>
+    <style name="AnalyticsMetricContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="AnalyticsMetricLabel" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelMedium</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="AnalyticsMetricValue" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceDisplaySmall</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AnalyticsStatDetail" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+    </style>
+    <style name="AppTheme_DialogAnimation" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/AppTheme_DialogAnimation</item>
+
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="colorSurfaceContainerHigh">?attr/colorSurface</item>
+
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+
+        <item name="android:windowEnterAnimation">@anim/fade_in_scale</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_scale</item>
+    </style>
+    <style name="PremiumBenefitText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodyLarge</item>
+        <item name="drawableTint">?attr/colorPrimary</item>
+    </style>
+    <style name="ShapeAppearance.App.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="Theme.niduscare" parent="Theme.Material3.DayNight.NoActionBar">
+
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+            <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+            <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+
+            <item name="colorSecondary">@color/colorAccent</item>
+            <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+            <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+            <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+
+            <item name="colorTertiary">@color/md_theme_tertiary</item>
+            <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+            <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+            <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+
+            <item name="colorError">@color/colorError</item>
+            <item name="colorOnError">@color/md_theme_onError</item>
+            <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+            <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+
+            <item name="colorOnBackground">@color/md_theme_onBackground</item>
+            <item name="colorSurface">@color/colorSurface</item>
+            <item name="colorOnSurface">@color/md_theme_onSurface</item>
+            <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+            <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+
+            <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+            <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+            <item name="android:colorBackground">@color/colorBackground</item>
+            <item name="android:textColorPrimary">@color/colorOnBackground</item>
+
+
+
+        </style>
+    <style name="Widget.App.CalendarDayHeaderText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.Material3.CardView.OutlinedCard" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">?attr/colorOutline</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="niduscare.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+    <style name="niduscare.Button.Contained">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.CornerSize50Percent</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+    <style name="niduscare.Button.FilledTonal" parent="Widget.Material3.Button.TonalButton">
+    </style>
+    <style name="niduscare.Button.Icon" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">24dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconSize">20dp</item>
+    </style>
+    <style name="niduscare.Button.LargeIcon" parent="Widget.Material3.Button.IconButton">
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="iconSize">24dp</item>
+    </style>
+    <style name="niduscare.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+    <style name="niduscare.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+    <style name="niduscare.Card" parent="Widget.Material3.CardView.Elevated">
+    </style>
+    <style name="niduscare.Card.Outlined" parent="Widget.Material3.CardView.Outlined">
+    </style>
+    <style name="niduscare.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="niduscare.ProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackCornerRadius">4dp</item>
+        <item name="trackThickness">8dp</item>
+        <item name="indicatorColor">@color/md_theme_primary</item>
+        <item name="trackColor">@color/md_theme_surfaceVariant</item>
+    </style>
+    <style name="niduscare.Text.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+    </style>
+    <style name="niduscare.Text.Caption" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/md_theme_onSurfaceVariant</item>
+    </style>
+    <style name="niduscare.Text.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+    </style>
+    <style name="niduscare.Text.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+    </style>
+    <style name="niduscare.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">3dp</item>
+    </style>
+</resources>

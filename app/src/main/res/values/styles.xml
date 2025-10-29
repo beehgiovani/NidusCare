@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Shape Appearances -->
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_radius_normal</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_radius_large</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearance.App.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Button Styles - Modern & Professional -->
+    <style name="niduscare.Button" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="elevation">@dimen/button_elevation</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="niduscare.Button.FilledTonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <style name="niduscare.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="elevation">@dimen/elevation_low</item>
+    </style>
+
+    <style name="niduscare.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="strokeWidth">@dimen/stroke_width_medium</item>
+    </style>
+
+    <style name="niduscare.Button.Contained">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.CornerSize50Percent</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="cardElevation">@dimen/elevation_low</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:textColor">@color/colorError</item>
+    </style>
+
+    <style name="niduscare.Button.Icon" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/corner_radius_xl</item>
+        <item name="android:minWidth">@dimen/button_height</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="iconSize">@dimen/icon_size_small</item>
+    </style>
+
+    <style name="niduscare.Button.LargeIcon" parent="Widget.Material3.Button.IconButton">
+        <item name="android:minWidth">@dimen/button_height</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="iconSize">@dimen/icon_size_medium</item>
+    </style>
+
+    <!-- Card Styles - Enhanced Elevation -->
+    <style name="niduscare.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+        <item name="android:stateListAnimator">@animator/card_elevation_animator</item>
+    </style>
+
+    <style name="niduscare.Card.Outlined" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="strokeWidth">@dimen/card_stroke_width</item>
+        <item name="strokeColor">?attr/colorOutline</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+    </style>
+
+    <style name="Widget.Material3.CardView.OutlinedCard" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardElevation">@dimen/elevation_none</item>
+        <item name="strokeColor">?attr/colorOutline</item>
+        <item name="strokeWidth">@dimen/stroke_width_thin</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+    </style>
+
+    <!-- Text Input Layout - Modern Rounded -->
+    <style name="niduscare.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/text_field_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/text_field_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/text_field_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/text_field_corner_radius</item>
+        <item name="boxStrokeWidth">@dimen/stroke_width_medium</item>
+        <item name="boxStrokeWidthFocused">@dimen/stroke_width_thick</item>
+        <item name="hintTextColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Chip Styles -->
+    <style name="niduscare.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">@dimen/chip_corner_radius</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="chipStrokeWidth">@dimen/stroke_width_thin</item>
+    </style>
+
+    <!-- Progress Indicator -->
+    <style name="niduscare.ProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackCornerRadius">@dimen/corner_radius_xs</item>
+        <item name="trackThickness">8dp</item>
+        <item name="indicatorColor">@color/md_theme_primary</item>
+        <item name="trackColor">@color/md_theme_surfaceVariant</item>
+    </style>
+
+    <!-- Typography Styles - Enhanced Hierarchy -->
+    <style name="niduscare.Text.Headline" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="niduscare.Text.Title" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="niduscare.Text.Body" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/md_theme_onSurface</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="niduscare.Text.Caption" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/md_theme_onSurfaceVariant</item>
+    </style>
+
+    <!-- Calendar Styles -->
+    <style name="Widget.App.CalendarDayHeaderText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodySmall</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Analytics Styles -->
+    <style name="AnalyticsMetricContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+    </style>
+
+    <style name="AnalyticsMetricValue" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceDisplaySmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="AnalyticsMetricLabel" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelMedium</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="AnalyticsStatDetail" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">@dimen/spacing_small</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+    </style>
+
+    <!-- Premium Styles -->
+    <style name="PremiumBenefitText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">@dimen/spacing_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodyLarge</item>
+        <item name="drawableTint">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="AppTheme_DialogAnimation" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:windowAnimationStyle">@style/AppTheme_DialogAnimation</item>
+        <item name="android:windowBackground">@drawable/dialog_background</item>
+        <item name="android:textColorPrimary">?attr/colorOnSurface</item>
+        <item name="android:textColorSecondary">?attr/colorOnSurfaceVariant</item>
+        <item name="colorSurfaceContainerHigh">?attr/colorSurface</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowEnterAnimation">@anim/fade_in_scale</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_scale</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.LargeComponent</item>
+    </style>
+
+    <!-- FAB Styles -->
+    <style name="niduscare.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="elevation">@dimen/fab_elevation</item>
+    </style>
+
+    <style name="niduscare.FAB.Extended" parent="Widget.Material3.ExtendedFloatingActionButton.Primary">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="elevation">@dimen/fab_elevation</item>
+    </style>
+
+</resources>
+

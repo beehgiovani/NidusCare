@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp">
+
+    <View
+        android:id="@+id/timelineLineTop"
+        android:layout_width="2dp"
+        android:layout_height="16dp"
+        android:background="?attr/colorOutline"
+        app:layout_constraintEnd_toEndOf="@id/timelineIconBackground"
+        app:layout_constraintStart_toStartOf="@id/timelineIconBackground"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/timelineLineBottom"
+        android:layout_width="2dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOutline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/timelineIconBackground"
+        app:layout_constraintStart_toStartOf="@id/timelineIconBackground"
+        app:layout_constraintTop_toBottomOf="@id/timelineIconBackground" />
+
+    <FrameLayout
+        android:id="@+id/timelineIconBackground"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_shape"
+        android:backgroundTint="?attr/colorSurfaceContainerHighest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timelineLineTop">
+
+        <ImageView
+            android:id="@+id/timelineIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/ic_pill"
+            tools:tint="?attr/colorPrimary" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintBottom_toBottomOf="@id/timelineIconBackground"
+        app:layout_constraintStart_toEndOf="@id/timelineIconBackground"
+        app:layout_constraintTop_toTopOf="@id/timelineIconBackground"
+        tools:text="14:32" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:cardElevation="@dimen/card_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/timelineIconBackground"
+        app:layout_constraintTop_toBottomOf="@id/textViewTime">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_medium">
+
+            <TextView
+                android:id="@+id/textViewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceBodyMedium"
+                android:textColor="?attr/colorOnSurface"
+                tools:text="Mariana registrou a dose de Dipirona (500mg)." />
+
+            <TextView
+                android:id="@+id/textViewAutor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?attr/textAppearanceBodySmall"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                tools:text="por Mariana" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,332 @@
+-keep class androidx.camera.core.impl.MetadataHolderService { <init>(); }
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.credentials.playservices.CredentialProviderMetadataHolder { <init>(); }
+-keep class androidx.credentials.playservices.HiddenActivity { <init>(); }
+-keep class androidx.credentials.playservices.IdentityCredentialApiHiddenActivity { <init>(); }
+-keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
+-keep class androidx.room.MultiInstanceInvalidationService { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.RescheduleReceiver { <init>(); }
+-keep class androidx.work.impl.background.systemalarm.SystemAlarmService { <init>(); }
+-keep class androidx.work.impl.background.systemjob.SystemJobService { <init>(); }
+-keep class androidx.work.impl.diagnostics.DiagnosticsReceiver { <init>(); }
+-keep class androidx.work.impl.foreground.SystemForegroundService { <init>(); }
+-keep class androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver { <init>(); }
+-keep class com.android.billingclient.api.ProxyBillingActivity { <init>(); }
+-keep class com.android.billingclient.api.ProxyBillingActivityV2 { <init>(); }
+-keep class com.developersbeeh.medcontrol.MainActivity { <init>(); }
+-keep class com.developersbeeh.medcontrol.MedControlApplication { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.AlarmActivity { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.BootReceiver { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.EmergencyAlertActivity { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.MissedDoseFollowUpReceiver { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.MyFirebaseMessagingService { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.NotificationActionReceiver { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.NotificationBroadcastReceiver { <init>(); }
+-keep class com.developersbeeh.medcontrol.notifications.ReminderBroadcastReceiver { <init>(); }
+-keep class com.developersbeeh.medcontrol.ui.wellbeing.timer.ActivityTimerService { <init>(); }
+-keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver { <init>(); }
+-keep class com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.AdService { <init>(); }
+-keep class com.google.android.gms.ads.MobileAdsInitProvider { <init>(); }
+-keep class com.google.android.gms.ads.NotificationHandlerActivity { <init>(); }
+-keep class com.google.android.gms.ads.OutOfContextTestingActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }
+-keep class com.google.android.play.core.common.PlayCoreDialogWrapperActivity { <init>(); }
+-keep class com.google.firebase.auth.internal.GenericIdpActivity { <init>(); }
+-keep class com.google.firebase.auth.internal.RecaptchaActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.helper.widget.Flow { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Group { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.Guideline { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.fragment.app.FragmentContainerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.navigation.fragment.NavHostFragment { <init>(); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager2.widget.ViewPager2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.airbnb.lottie.LottieAnimationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.developersbeeh.medcontrol.ui.achievements.AchievementsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.activities.PhysicalActivityTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.addmedicamento.AddMedicamentoFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.adherencereport.AdherenceReportFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.analysis.AnalysisHistoryFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.analysis.AnalysisResultFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.analytics.HealthChartsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.analytics.MedicationAnalyticsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.archive.ArchivedMedicationsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.caregiver.AddEditDependentFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.caregiver.CaregiverDashboardFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.caregiver.ManageCaregiversFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.caregiver.ReceivedInvitesFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.chat.ChatFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.cycletracker.CycleHistoryFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.cycletracker.CycleTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.dashboard.DashboardDependenteFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.dependents.DependentDiaryFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.dependents.LinkDependentFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.documents.AddEditDocumentFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.documents.HealthDocumentsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.dosehistory.DoseHistoryFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.education.EducationCenterFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.education.EducationDetailFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.family.ManageFamilyFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.farmacinha.FarmacinhaFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.geriatric.GeriatricCareFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.goals.HealthGoalsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.healthnotes.AddHealthNoteFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.healthnotes.HealthNotesFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.hydration.HydrationTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.insights.InsightsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.listmedicamentos.ListMedicamentosFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.login.LoginFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.login.RegisterFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.meals.MealTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.onboarding.OnboardingFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.pharmacy.PharmacyMedicationSelectionFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.pharmacy.PharmacySelectionFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.premium.PremiumPlansFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.profile.CompleteProfileFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.profile.EditSelfProfileHealthFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.profile.ProfileEditFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.profile.ProfileFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.reminders.RemindersFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.reports.ReportsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.role.RoleSelectionFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.scan.PrescriptionAnalysisFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.scan.PrescriptionScannerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.schedule.AddEditScheduleFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.schedule.HealthScheduleFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.searchmedicamentos.MedicamentoDetailFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.searchmedicamentos.SearchMedicamentosFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.settings.AboutFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.settings.NotificationSettingsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.settings.PrivacySettingsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.settings.SettingsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.settings.ThemeSettingsFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.sleep.SleepTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.splash.SplashFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.timeline.TimelineFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.vaccination.VaccinationCardFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.weight.WeightTrackerFragment { <init>(...); }
+
+-keep class com.developersbeeh.medcontrol.ui.wellbeing.WellbeingDiaryFragment { <init>(...); }
+
+-keep class com.facebook.shimmer.ShimmerFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.github.mikephil.charting.charts.BarChart { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.github.mikephil.charting.charts.LineChart { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.gms.ads.AdView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.gms.common.SignInButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.MaterialToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.button.MaterialButtonToggleGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.card.MaterialCardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.checkbox.MaterialCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.Chip { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.chip.ChipGroup { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.datepicker.MaterialCalendarGridView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.divider.MaterialDivider { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.imageview.ShapeableImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.ClippableRoundedCornerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.TouchObserverFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.materialswitch.MaterialSwitch { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.navigation.NavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.progressindicator.CircularProgressIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.progressindicator.LinearProgressIndicator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.radiobutton.MaterialRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.switchmaterial.SwitchMaterial { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ChipTextInputComboView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockFaceView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.ClockHandView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.timepicker.TimePickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.kizitonwose.calendar.view.CalendarView { <init>(android.content.Context, android.util.AttributeSet); }
+

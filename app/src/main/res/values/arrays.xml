@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_suggestions">
+        <item>Caminhada</item>
+        <item>Corrida</item>
+        <item>Ciclismo</item>
+        <item>Natação</item>
+        <item>Musculação</item>
+        <item>Yoga</item>
+        <item>Pilates</item>
+        <item>Dança</item>
+        <item>Futebol</item>
+        <item>Basquete</item>
+        <item>Tênis</item>
+        <item>Alongamento</item>
+    </string-array>
+</resources>

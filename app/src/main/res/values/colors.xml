@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Modern Blue Palette -->
+    <color name="md_theme_primary">#0066CC</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#D4E7FF</color>
+    <color name="md_theme_onPrimaryContainer">#001C3A</color>
+
+    <!-- Secondary Colors - Vibrant Teal -->
+    <color name="md_theme_secondary">#00ACC1</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#B2EBF2</color>
+    <color name="md_theme_onSecondaryContainer">#002027</color>
+
+    <!-- Tertiary Colors - Fresh Green -->
+    <color name="md_theme_tertiary">#00C853</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#B9F6CA</color>
+    <color name="md_theme_onTertiaryContainer">#002110</color>
+
+    <!-- Error Colors -->
+    <color name="md_theme_error">#D32F2F</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFEBEE</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <!-- Background & Surface - Light Mode -->
+    <color name="md_theme_background">#F8FAFB</color>
+    <color name="md_theme_onBackground">#1A1C1E</color>
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_onSurface">#1A1C1E</color>
+    <color name="md_theme_surfaceVariant">#E1E8ED</color>
+    <color name="md_theme_onSurfaceVariant">#44474E</color>
+    <color name="md_theme_outline">#74777F</color>
+    <color name="md_theme_inverseOnSurface">#F1F3F5</color>
+    <color name="md_theme_inverseSurface">#2F3033</color>
+    <color name="md_theme_inversePrimary">#A8DAFF</color>
+    <color name="md_theme_surfaceTint">#0066CC</color>
+    <color name="md_theme_surfaceTintColor">#0066CC</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_primary_dark">#A8DAFF</color>
+    <color name="md_theme_onPrimary_dark">#003258</color>
+    <color name="md_theme_primaryContainer_dark">#004A7F</color>
+    <color name="md_theme_onPrimaryContainer_dark">#D4E7FF</color>
+
+    <color name="md_theme_secondary_dark">#4DD0E1</color>
+    <color name="md_theme_onSecondary_dark">#003640</color>
+    <color name="md_theme_secondaryContainer_dark">#00525E</color>
+    <color name="md_theme_onSecondaryContainer_dark">#B2EBF2</color>
+
+    <color name="md_theme_tertiary_dark">#69F0AE</color>
+    <color name="md_theme_onTertiary_dark">#003920</color>
+    <color name="md_theme_tertiaryContainer_dark">#005230</color>
+    <color name="md_theme_onTertiaryContainer_dark">#B9F6CA</color>
+
+    <color name="md_theme_error_dark">#EF5350</color>
+    <color name="md_theme_onError_dark">#690005</color>
+    <color name="md_theme_errorContainer_dark">#93000A</color>
+    <color name="md_theme_onErrorContainer_dark">#FFEBEE</color>
+
+    <color name="md_theme_background_dark">#0F1113</color>
+    <color name="md_theme_onBackground_dark">#E2E4E6</color>
+    <color name="md_theme_surface_dark">#1A1C1E</color>
+    <color name="md_theme_onSurface_dark">#E2E4E6</color>
+    <color name="md_theme_surfaceVariant_dark">#44474E</color>
+    <color name="md_theme_onSurfaceVariant_dark">#C4C6CF</color>
+
+    <!-- Premium & Special Colors -->
+    <color name="premium_gold">#FFD700</color>
+    <color name="premium_gradient_start">#FFD700</color>
+    <color name="premium_gradient_end">#FFA000</color>
+    <color name="light_gray_subtle">#F5F7FA</color>
+    <color name="dark_blue_subtle">#0066CC</color>
+    <color name="deep_blue">#003D82</color>
+    <color name="sky_blue">#D4E7FF</color>
+    <color name="shimmer_placeholder">#E0E0E0</color>
+    <color name="splash_background_color">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="status_success_green">#00C853</color>
+    <color name="status_warning_orange">#FF9800</color>
+
+    <!-- Legacy Color Mappings -->
+    <color name="colorPrimary">@color/md_theme_primary</color>
+    <color name="colorPrimaryDark">#003D82</color>
+    <color name="colorPrimaryLight">@color/md_theme_primaryContainer</color>
+    <color name="colorAccent">@color/md_theme_secondary</color>
+    <color name="colorBackground">@color/md_theme_background</color>
+    <color name="colorSurface">@color/md_theme_surface</color>
+    <color name="colorOnPrimary">@color/md_theme_onPrimary</color>
+    <color name="colorOnSecondary">@color/md_theme_onSecondary</color>
+    <color name="colorOnBackground">@color/md_theme_onBackground</color>
+    <color name="colorOnSurface">@color/md_theme_onSurface</color>
+    <color name="colorSuccess">#00C853</color>
+    <color name="colorWarning">#FFB300</color>
+    <color name="colorError">#D32F2F</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradiente">#00C853</color>
+    <color name="onboarding_background">#E3F2FD</color>
+    <color name="Green_aviso">#00C853</color>
+
+    <!-- Primary Variants -->
+    <color name="primary_color">@color/md_theme_primary</color>
+    <color name="primary_dark">@color/colorPrimaryDark</color>
+    <color name="primary_light">@color/md_theme_primaryContainer</color>
+    <color name="primary_variant">#004A7F</color>
+    <color name="soft_blue">#B2EBF2</color>
+    <color name="soft_blue_light">#E0F7FA</color>
+    <color name="soft_blue_dark">#004A7F</color>
+
+    <!-- Secondary Variants -->
+    <color name="secondary_color">@color/md_theme_secondary</color>
+    <color name="secondary_dark">#002027</color>
+    <color name="secondary_light">@color/md_theme_secondaryContainer</color>
+    <color name="light_blue">#4DD0E1</color>
+    <color name="light_blue_soft">#B2EBF2</color>
+    <color name="light_blue_pale">#E0F7FA</color>
+
+    <!-- Accent Variants -->
+    <color name="accent_color">@color/md_theme_tertiary</color>
+    <color name="accent_dark">#005230</color>
+    <color name="accent_light">#B9F6CA</color>
+    <color name="electric_blue">#448AFF</color>
+    <color name="electric_blue_light">#83A9FF</color>
+
+    <!-- Text Colors -->
+    <color name="primary_text">@color/md_theme_onBackground</color>
+    <color name="secondary_text">@color/md_theme_onSurfaceVariant</color>
+    <color name="hint_text">@color/md_theme_outline</color>
+    <color name="disabled_text">@color/md_theme_onSurfaceVariant</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_accent">#FFFFFF</color>
+
+    <!-- Background Variants -->
+    <color name="background_light">@color/md_theme_background</color>
+    <color name="background_soft">#F0F4F8</color>
+    <color name="surface_light">@color/md_theme_surface</color>
+    <color name="surface_elevated">#FFFFFF</color>
+    <color name="background_blue_tint">#F0F7FF</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="dialog_background">#FFFFFF</color>
+
+    <!-- Semantic Colors - Success -->
+    <color name="success_green">#00C853</color>
+    <color name="success_light">#E8F5E9</color>
+    <color name="success_on_surface">#00A344</color>
+
+    <!-- Semantic Colors - Warning -->
+    <color name="warning_orange">#FF9800</color>
+    <color name="warning_light">#FFF3E0</color>
+    <color name="warning_on_surface">#E65100</color>
+
+    <!-- Semantic Colors - Error -->
+    <color name="error_red">#D32F2F</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="error_on_surface">#B71C1C</color>
+
+    <!-- Semantic Colors - Info -->
+    <color name="info_blue">#0066CC</color>
+    <color name="info_light">#E3F2FD</color>
+    <color name="info_on_surface">#004A7F</color>
+
+    <!-- Medication Status Colors -->
+    <color name="medication_taken">#00C853</color>
+    <color name="medication_missed">#FF5252</color>
+    <color name="medication_pending">#FF9800</color>
+    <color name="medication_paused">#9E9E9E</color>
+
+    <!-- UI Elements -->
+    <color name="card_shadow">#1A0066CC</color>
+    <color name="elevation_shadow">#0D000000</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="border_light">#E8EAED</color>
+    <color name="border_medium">#BDC1C6</color>
+    <color name="shimmer_base">#F0F0F0</color>
+    <color name="shimmer_highlight">#FAFAFA</color>
+    <color name="ripple_color">#200066CC</color>
+    <color name="pressed_state">#150066CC</color>
+    <color name="focused_state">#200066CC</color>
+    <color name="hover_state">#100066CC</color>
+
+    <!-- Transparency Overlays -->
+    <color name="semi_transparent_white">#B3FFFFFF</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="overlay_dark">#99000000</color>
+    <color name="overlay_light">#80FFFFFF</color>
+
+    <!-- Gradient Definitions -->
+    <color name="gradient_start">#0066CC</color>
+    <color name="gradient_end">#00ACC1</color>
+    <color name="gradient_secondary_start">#00C853</color>
+    <color name="gradient_secondary_end">#69F0AE</color>
+    <color name="gradient_soft_start">#F0F7FF</color>
+    <color name="gradient_soft_end">#D4E7FF</color>
+    <color name="gradient_card_start">#FFFFFF</color>
+    <color name="gradient_card_end">#F8FAFB</color>
+
+    <!-- Urgency Levels -->
+    <color name="urgency_critical">#D32F2F</color>
+    <color name="urgency_high">#FF6F00</color>
+    <color name="urgency_medium">#0066CC</color>
+    <color name="urgency_low">#00C853</color>
+
+    <!-- Medication Types -->
+    <color name="medication_oral">#0066CC</color>
+    <color name="medication_injection">#7B1FA2</color>
+    <color name="medication_topical">#00ACC1</color>
+    <color name="medication_other">#607D8B</color>
+
+    <!-- Time of Day -->
+    <color name="dose_morning">#FFB300</color>
+    <color name="dose_afternoon">#FF8F00</color>
+    <color name="dose_evening">#5C6BC0</color>
+    <color name="dose_night">#3949AB</color>
+
+
+
+    <color name="success_green_light">#E8F5E9</color>
+    <color name="success_green_dark">#2E7D32</color>
+
+    <!-- Cores de Erro -->
+
+    <color name="error_red_light">#FFEBEE</color>
+    <color name="error_red_dark">#C62828</color>
+
+    <!-- Cores de Aviso -->
+
+    <color name="warning_orange_light">#FFF3E0</color>
+    <color name="warning_orange_dark">#E65100</color>
+
+    <!-- Cores de Informação -->
+
+    <color name="info_blue_light">#E3F2FD</color>
+    <color name="info_blue_dark">#1565C0</color>
+
+    <!-- Cores Premium -->
+
+    <color name="premium_gold_light">#FFF9E6</color>
+    <color name="premium_gold_dark">#FFA000</color>
+
+    <!-- Cores de Distância (para farmácias) -->
+    <color name="distance_near">#4CAF50</color>
+    <color name="distance_medium">#2196F3</color>
+    <color name="distance_far">#FF9800</color>
+
+    <!-- Cores Neutras Modernas -->
+    <color name="neutral_100">#F5F5F5</color>
+    <color name="neutral_200">#EEEEEE</color>
+    <color name="neutral_300">#E0E0E0</color>
+    <color name="neutral_400">#BDBDBD</color>
+    <color name="neutral_500">#9E9E9E</color>
+    <color name="neutral_600">#757575</color>
+    <color name="neutral_700">#616161</color>
+    <color name="neutral_800">#424242</color>
+    <color name="neutral_900">#212121</color>
+
+    <!-- Cores de Overlay -->
+
+    <color name="overlay_medium">#4D000000</color>
+
+
+    <!-- Cores de Card -->
+    <color name="card_background_light">#FFFFFF</color>
+    <color name="card_background_dark">#1E1E1E</color>
+    <color name="card_stroke">#E0E0E0</color>
+
+    <!-- Cores de Propaganda -->
+    <color name="ad_background">#FFF8E1</color>
+    <color name="ad_border">#FFD54F</color>
+    <color name="ad_text">#F57F17</color>
+
+
+</resources>
+

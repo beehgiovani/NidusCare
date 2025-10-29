@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/action_select_pharmacy"
+        android:icon="@drawable/ic_check"
+        android:title="Selecionar Farmácia" />
+    
+    <item
+        android:id="@+id/action_call_pharmacy"
+        android:icon="@drawable/ic_phone"
+        android:title="Ligar para Farmácia" />
+    
+    <!-- ✅ NOVO: Opção de navegar -->
+    <item
+        android:id="@+id/action_navigate"
+        android:icon="@drawable/ic_location"
+        android:title="Navegar até Farmácia" />
+    
+    <!-- ✅ NOVO: Opção de favoritar (Premium) -->
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="Adicionar aos Favoritos" />
+    
+</menu>

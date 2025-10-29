@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_edit_dependent"
+        android:title="Editar Perfil do Dependente" />
+    <item
+        android:id="@+id/action_view_credentials"
+        android:title="Ver Credenciais de Acesso" />
+    <item
+        android:id="@+id/action_manage_caregivers"
+        android:title="Gerenciar Cuidadores"/>
+    <item
+        android:id="@+id/action_toggle_alarm"
+        android:title="Ativar/Desativar Alarme de Tela Cheia" />
+      <item
+        android:id="@+id/action_view_analysis_history"
+        android:title="Histórico de Análises (IA)" />
+    <item
+        android:id="@+id/action_delete_dependent"
+        android:title="Excluir Dependente" />
+</menu>
