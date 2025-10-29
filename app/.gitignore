@@ -1,1 +1,102 @@
 /build
+
+# ======================================================================
+# Arquivos de Sistema Operacional (macOS, Windows, Linux)
+# ======================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ======================================================================
+# Logs
+# ======================================================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================================================================
+# Arquivos de Build do Android/Gradle
+# ======================================================================
+# Diretórios gerados
+.gradle/
+build/
+app/build/
+
+# Cache do Gradle
+.gradletasknamecache
+gradle-app.setting
+
+# Arquivos de wrapper do Gradle (não o .jar, mas os arquivos de cache)
+!gradle/wrapper/gradle-wrapper.jar
+
+# ======================================================================
+# Arquivos de IDE (Android Studio / IntelliJ)
+# ======================================================================
+# Configurações locais da IDE
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iws
+
+# Arquivos de Módulo do IntelliJ
+*.iml
+*.ipr
+
+# Cache do Hilt
+.hilt/
+
+# ======================================================================
+# Arquivos de Configuração Local
+# ======================================================================
+# Chaves de API, SDKs locais, etc.
+local.properties
+
+# ======================================================================
+# Arquivos de Saída (Binários)
+# ======================================================================
+*.apk
+*.aab
+*.ap_
+
+# ======================================================================
+# Arquivos Sensíveis e Segredos
+# ======================================================================
+# Armazém de chaves de assinatura
+*.jks
+*.keystore
+
+# Arquivo de segredos que criamos (NÃO DEVE IR PARA O REPOSITÓRIO)
+secrets.xml
+
+# Configurações do Google Services (Descomente se preferir não versionar)
+# google-services.json
+
+# Arquivos gerados pelo Firebase Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# ======================================================================
+# Arquivos Gerados (KSP, DataBinding)
+# ======================================================================
+# KSP (Kotlin Symbol Processing)
+app/build/generated/ksp/
+
+# ======================================================================
+# Capturas de Tela e Vídeos de Teste
+# ======================================================================
+*.png
+*.jpeg
+*.jpg
+*.gif
+*.bmp
+*.mp4

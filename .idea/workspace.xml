@@ -44,7 +44,16 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bruno &lt;brunogp.corretor@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="Git.Stage.Ui.Settings">
+    <option name="ignoredFilesShown" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -186,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761727515810</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761727551753</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761727551753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761727790023</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761727790023</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
