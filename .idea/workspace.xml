@@ -52,9 +52,6 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="Git.Stage.Ui.Settings">
-    <option name="ignoredFilesShown" value="true" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -75,7 +72,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/bruno/AndroidStudioProjects/niduscare",
+    "last_opened_file_path": "/home/bruno/AndroidStudioProjects/niduscare/app/src/main/res/values",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
@@ -211,7 +208,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761727790023</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761727917608</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761727917608</updated>
+    </task>
+    <task id="LOCAL-00006" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761728042416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728042416</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
