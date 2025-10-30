@@ -12,7 +12,7 @@ NidusCare é um app nativo Android (Kotlin) para gestão completa de saúde, foc
     Busca de Farmácias: Encontra farmácias próximas usando a API do Google Places.
     Central Educativa: Artigos sobre saúde e bem-estar.
     Métricas de Bem-Estar: Monitoramento de hidratação, peso, sono e atividades físicas.
- 
+  
 🤖 Funcionalidades com IA (Premium)
 
     Scanner de Receitas (Gemini): Tira uma foto de uma receita médica e cadastra múltiplos medicamentos automaticamente.
