@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:2:1-113:12
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:2:1-113:12
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:2:1-113:12
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:2:1-113:12
 MERGED from [androidx.databinding:viewbinding:8.13.0] /home/bruno/.gradle/caches/8.14.3/transforms/89f57e06245c34d5591856d366e9de18/transformed/viewbinding-8.13.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-ads:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/7e73c4128827a2ecdc07d6e38e592f5d/transformed/play-services-ads-24.6.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:17:1-116:12
@@ -177,23 +177,23 @@ MERGED from [com.google.android.play:core-common:2.0.4] /home/bruno/.gradle/cach
 MERGED from [com.github.mhiew:pdfium-android:1.9.2] /home/bruno/.gradle/caches/8.14.3/transforms/8f8ae0cc3f60d7364e8fc63bd78de6d7/transformed/pdfium-android-1.9.2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/9bb7133f7185e3e14cdd1401a6c58ca6/transformed/protolite-well-known-types-18.0.1/AndroidManifest.xml:2:1-7:12
 	package
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:4:5-79
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:4:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:5:22-78
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.INTERNET
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-auth:24.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/0370c77a0b6271c827689d9962bdd32d/transformed/firebase-auth-24.0.1/AndroidManifest.xml:25:5-67
@@ -225,29 +225,29 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] /h
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/bruno/.gradle/caches/8.14.3/transforms/ab9355f24f132e3ec10053aa6039522b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/bruno/.gradle/caches/8.14.3/transforms/ab9355f24f132e3ec10053aa6039522b/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.POST_NOTIFICATIONS
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:7:5-76
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:7:5-76
 MERGED from [com.google.firebase:firebase-messaging:25.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/db9531727c146333f4875ec6d663bc6c/transformed/firebase-messaging-25.0.1/AndroidManifest.xml:23:5-77
 MERGED from [com.google.firebase:firebase-messaging:25.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/db9531727c146333f4875ec6d663bc6c/transformed/firebase-messaging-25.0.1/AndroidManifest.xml:23:5-77
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:7:22-74
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:7:22-74
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:8:5-81
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:8:5-81
 REJECTED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:30:5-32:31
 REJECTED from [androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:8:22-78
 uses-permission#android.permission.USE_EXACT_ALARM
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:9:5-74
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:9:5-74
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:9:22-71
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:9:22-71
 uses-permission#android.permission.USE_FULL_SCREEN_INTENT
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:10:5-81
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:10:22-78
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:11:5-68
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:11:5-68
 MERGED from [com.google.firebase:firebase-messaging:25.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/db9531727c146333f4875ec6d663bc6c/transformed/firebase-messaging-25.0.1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-messaging:25.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/db9531727c146333f4875ec6d663bc6c/transformed/firebase-messaging-25.0.1/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] /home/bruno/.gradle/caches/8.14.3/transforms/b2b38cd1ce9560fe068cfb03fdeaa618/transformed/play-services-measurement-api-23.0.0/AndroidManifest.xml:24:5-68
@@ -265,9 +265,9 @@ MERGED from [androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] /home/bruno/.gradle/caches/8.14.3/transforms/be52708ab635861eaebe7b30c5416f22/transformed/play-services-measurement-sdk-api-23.0.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:23.0.0] /home/bruno/.gradle/caches/8.14.3/transforms/be52708ab635861eaebe7b30c5416f22/transformed/play-services-measurement-sdk-api-23.0.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:11:22-65
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:12:5-79
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-auth:24.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/0370c77a0b6271c827689d9962bdd32d/transformed/firebase-auth-24.0.1/AndroidManifest.xml:26:5-79
@@ -305,26 +305,26 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/bru
 MERGED from [io.grpc:grpc-android:1.62.2] /home/bruno/.gradle/caches/8.14.3/transforms/bd7c7803bad8033d52c7b4b0ef5ba635/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
 MERGED from [io.grpc:grpc-android:1.62.2] /home/bruno/.gradle/caches/8.14.3/transforms/bd7c7803bad8033d52c7b4b0ef5ba635/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.CAMERA
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:13:5-65
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:13:22-62
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:13:22-62
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:14:5-77
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:14:5-77
 MERGED from [androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:26:5-77
 MERGED from [androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:26:5-77
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:14:22-74
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:14:22-74
 uses-feature#android.hardware.camera
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:5-84
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:5-84
 	android:required
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:58-82
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:58-82
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:19-57
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:19-57
 application
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:18:5-111:19
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:18:5-111:19
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:18:5-111:19
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:18:5-111:19
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:70:5-114:19
 MERGED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:70:5-114:19
 MERGED from [com.google.firebase:firebase-storage-ktx:21.0.0] /home/bruno/.gradle/caches/8.14.3/transforms/d10bacbfbcfb1ce21f2998d7455e4198/transformed/firebase-storage-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
@@ -444,171 +444,171 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/bru
 MERGED from [com.google.android.play:core-common:2.0.4] /home/bruno/.gradle/caches/8.14.3/transforms/5cb2ab86be948c35cb472ce0de4ffbad/transformed/core-common-2.0.4/AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.play:core-common:2.0.4] /home/bruno/.gradle/caches/8.14.3/transforms/5cb2ab86be948c35cb472ce0de4ffbad/transformed/core-common-2.0.4/AndroidManifest.xml:11:5-19:19
 	android:extractNativeLibs
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] /home/bruno/.gradle/caches/8.14.3/transforms/9d60f1ef2c3b5b2e630a43e4200df802/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:26:9-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:24:9-41
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:24:9-41
 	android:fullBackupContent
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:22:9-54
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:22:9-54
 	android:roundIcon
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:25:9-54
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:23:9-43
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:28:9-47
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:28:9-47
 	android:enableOnBackInvokedCallback
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:27:9-51
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:27:9-51
 	android:dataExtractionRules
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:21:9-65
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:21:9-65
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:19:9-75
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:19:9-75
 service#com.developersbeeh.medcontrol.notifications.MyFirebaseMessagingService
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:30:8-36:19
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:30:8-36:19
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:32:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:31:13-98
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:31:13-98
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:33:13-35:29
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:33:13-35:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:17-78
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:17-78
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:25-75
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:25-75
 service#com.developersbeeh.medcontrol.ui.wellbeing.timer.ActivityTimerService
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:38:9-42:60
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:38:9-42:60
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:40:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:40:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:41:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:41:13-37
 	android:foregroundServiceType
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:42:13-57
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:42:13-57
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:39:13-68
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:39:13-68
 activity#com.developersbeeh.medcontrol.MainActivity
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:44:9-51:20
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:44:9-51:20
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:46:13-36
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:46:13-36
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:45:13-70
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:45:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:47:13-50:29
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:47:13-50:29
 action#android.intent.action.MAIN
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:48:17-69
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:48:17-69
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:48:25-66
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:49:17-77
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:49:27-74
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:49:27-74
 activity#com.developersbeeh.medcontrol.notifications.AlarmActivity
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:53:9-59:54
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:53:9-59:54
 	android:turnScreenOn
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:58:13-40
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:58:13-40
 	android:launchMode
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:56:13-43
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:56:13-43
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:55:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:55:13-37
 	android:showOnLockScreen
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:57:13-44
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:57:13-44
 	android:theme
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:59:13-51
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:59:13-51
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:54:13-85
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:54:13-85
 activity#com.developersbeeh.medcontrol.notifications.EmergencyAlertActivity
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:61:9-67:54
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:61:9-67:54
 	android:turnScreenOn
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:66:13-40
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:66:13-40
 	android:launchMode
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:64:13-43
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:64:13-43
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:63:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:63:13-37
 	android:showOnLockScreen
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:65:13-44
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:65:13-44
 	android:theme
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:67:13-51
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:67:13-51
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:62:13-94
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:62:13-94
 receiver#com.developersbeeh.medcontrol.notifications.NotificationBroadcastReceiver
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:70:9-72:40
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:70:9-72:40
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:71:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:71:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:72:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:72:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:70:19-107
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:70:19-107
 receiver#com.developersbeeh.medcontrol.notifications.NotificationActionReceiver
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:74:9-76:40
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:74:9-76:40
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:75:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:75:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:76:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:76:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:74:19-104
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:74:19-104
 receiver#com.developersbeeh.medcontrol.notifications.ReminderBroadcastReceiver
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:78:9-80:40
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:78:9-80:40
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:79:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:79:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:80:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:80:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:78:19-103
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:78:19-103
 receiver#com.developersbeeh.medcontrol.notifications.MissedDoseFollowUpReceiver
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:82:9-85:40
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:82:9-85:40
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:84:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:84:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:85:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:85:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:83:13-98
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:83:13-98
 receiver#com.developersbeeh.medcontrol.notifications.BootReceiver
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:87:9-95:20
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:87:9-95:20
 	android:enabled
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:89:13-35
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:89:13-35
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:90:13-36
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:90:13-36
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:88:13-84
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:88:13-84
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:91:13-94:29
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:91:13-94:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:17-79
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:17-79
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:25-76
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:93:17-82
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:93:17-82
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:93:25-79
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:93:25-79
 provider#androidx.core.content.FileProvider
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:97:9-105:20
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:97:9-105:20
 	android:grantUriPermissions
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:101:13-47
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:101:13-47
 	android:authorities
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:99:13-73
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:99:13-73
 	android:exported
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:100:13-37
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:98:13-62
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:98:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:102:13-104:54
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:102:13-104:54
 	android:resource
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:104:17-51
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:104:17-51
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:103:17-67
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:103:17-67
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:107:9-109:69
+ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:107:9-109:69
 	android:value
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:109:13-67
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:109:13-67
 	android:name
-		ADDED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:108:13-69
+		ADDED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:108:13-69
 uses-sdk
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
-INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
+INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:8.13.0] /home/bruno/.gradle/caches/8.14.3/transforms/89f57e06245c34d5591856d366e9de18/transformed/viewbinding-8.13.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:8.13.0] /home/bruno/.gradle/caches/8.14.3/transforms/89f57e06245c34d5591856d366e9de18/transformed/viewbinding-8.13.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/7e73c4128827a2ecdc07d6e38e592f5d/transformed/play-services-ads-24.6.0/AndroidManifest.xml:21:5-23:52
@@ -956,9 +956,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.1] /home/bruno/
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/7e73c4128827a2ecdc07d6e38e592f5d/transformed/play-services-ads-24.6.0/AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml
 uses-permission#com.google.android.gms.permission.AD_ID
 ADDED from [com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:23.0.0] /home/bruno/.gradle/caches/8.14.3/transforms/b2b38cd1ce9560fe068cfb03fdeaa618/transformed/play-services-measurement-api-23.0.0/AndroidManifest.xml:25:5-79

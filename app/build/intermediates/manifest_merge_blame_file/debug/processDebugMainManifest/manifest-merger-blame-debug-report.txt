@@ -9,45 +9,45 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:4:5-79
-11-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:4:22-76
+11-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:4:5-79
+11-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:4:22-76
 12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-12-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:5:5-81
-12-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:5:22-78
+12-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:5:5-81
+12-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:5:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:6:5-66
-13-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:6:22-64
+13-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:6:5-66
+13-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:6:22-64
 14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-14-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:7:5-76
-14-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:7:22-74
+14-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:7:5-76
+14-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:7:22-74
 15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-15-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:8:5-81
-15-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:8:22-78
+15-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:8:5-81
+15-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:8:22-78
 16    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
-16-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:9:5-74
-16-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:9:22-71
+16-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:9:5-74
+16-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:9:22-71
 17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-17-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:10:5-81
-17-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:10:22-78
+17-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:10:5-81
+17-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:10:22-78
 18    <uses-permission android:name="android.permission.WAKE_LOCK" />
-18-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:11:5-68
-18-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:11:22-65
+18-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:11:5-68
+18-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:11:22-65
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:12:5-79
-19-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:12:22-76
+19-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:12:5-79
+19-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:12:22-76
 20    <uses-permission android:name="android.permission.CAMERA" />
-20-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:13:5-65
-20-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:13:22-62
+20-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:13:5-65
+20-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:13:22-62
 21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-21-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:14:5-77
-21-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:14:22-74
+21-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:14:5-77
+21-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:14:22-74
 22
 23    <uses-feature
-23-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:5-84
+23-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:5-84
 24        android:name="android.hardware.camera"
-24-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:19-57
+24-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:19-57
 25        android:required="false" />
-25-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:16:58-82
+25-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:16:58-82
 26
 27    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
 27-->[com.google.android.gms:play-services-ads-api:24.6.0] /home/bruno/.gradle/caches/8.14.3/transforms/54d96bc343422932cbd1a42e1cd5ca8f/transformed/play-services-ads-api-24.6.0/AndroidManifest.xml:26:5-79
@@ -162,177 +162,177 @@
 82-->[androidx.core:core:1.17.0] /home/bruno/.gradle/caches/8.14.3/transforms/9d60f1ef2c3b5b2e630a43e4200df802/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
 83
 84    <application
-84-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:18:5-111:19
+84-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:18:5-111:19
 85        android:name="com.developersbeeh.medcontrol.MedControlApplication"
-85-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:19:9-75
+85-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:19:9-75
 86        android:allowBackup="true"
-86-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:20:9-35
+86-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:20:9-35
 87        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 87-->[androidx.core:core:1.17.0] /home/bruno/.gradle/caches/8.14.3/transforms/9d60f1ef2c3b5b2e630a43e4200df802/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 88        android:dataExtractionRules="@xml/data_extraction_rules"
-88-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:21:9-65
+88-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:21:9-65
 89        android:debuggable="true"
 90        android:enableOnBackInvokedCallback="true"
-90-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:27:9-51
+90-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:27:9-51
 91        android:extractNativeLibs="false"
 92        android:fullBackupContent="@xml/backup_rules"
-92-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:22:9-54
+92-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:22:9-54
 93        android:icon="@mipmap/ic_launcher"
-93-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:23:9-43
+93-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:23:9-43
 94        android:label="@string/app_name"
-94-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:24:9-41
+94-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:24:9-41
 95        android:roundIcon="@mipmap/ic_launcher_round"
-95-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:25:9-54
+95-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:25:9-54
 96        android:supportsRtl="true"
-96-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:26:9-35
+96-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:26:9-35
 97        android:testOnly="true"
 98        android:theme="@style/Theme.niduscare" >
-98-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:28:9-47
+98-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:28:9-47
 99        <service
-99-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:30:8-36:19
+99-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:30:8-36:19
 100            android:name="com.developersbeeh.medcontrol.notifications.MyFirebaseMessagingService"
-100-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:31:13-98
+100-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:31:13-98
 101            android:exported="false" >
-101-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:32:13-37
+101-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:32:13-37
 102            <intent-filter>
-102-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:33:13-35:29
+102-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:33:13-35:29
 103                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-103-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:17-78
-103-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:25-75
+103-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:17-78
+103-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:25-75
 104            </intent-filter>
 105        </service>
 106        <service
-106-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:38:9-42:60
+106-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:38:9-42:60
 107            android:name="com.developersbeeh.medcontrol.ui.wellbeing.timer.ActivityTimerService"
-107-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:39:13-68
+107-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:39:13-68
 108            android:enabled="true"
-108-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:40:13-35
+108-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:40:13-35
 109            android:exported="false"
-109-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:41:13-37
+109-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:41:13-37
 110            android:foregroundServiceType="shortService" />
-110-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:42:13-57
+110-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:42:13-57
 111
 112        <activity
-112-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:44:9-51:20
+112-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:44:9-51:20
 113            android:name="com.developersbeeh.medcontrol.MainActivity"
-113-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:45:13-70
+113-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:45:13-70
 114            android:exported="true" >
-114-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:46:13-36
+114-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:46:13-36
 115            <intent-filter>
-115-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:47:13-50:29
+115-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:47:13-50:29
 116                <action android:name="android.intent.action.MAIN" />
-116-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:48:17-69
-116-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:48:25-66
+116-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:48:17-69
+116-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:48:25-66
 117
 118                <category android:name="android.intent.category.LAUNCHER" />
-118-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:49:17-77
-118-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:49:27-74
+118-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:49:17-77
+118-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:49:27-74
 119            </intent-filter>
 120        </activity>
 121        <activity
-121-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:53:9-59:54
+121-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:53:9-59:54
 122            android:name="com.developersbeeh.medcontrol.notifications.AlarmActivity"
-122-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:54:13-85
+122-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:54:13-85
 123            android:exported="false"
-123-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:55:13-37
+123-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:55:13-37
 124            android:launchMode="singleTop"
-124-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:56:13-43
+124-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:56:13-43
 125            android:showOnLockScreen="true"
-125-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:57:13-44
+125-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:57:13-44
 126            android:theme="@style/Theme.niduscare"
-126-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:59:13-51
+126-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:59:13-51
 127            android:turnScreenOn="true" />
-127-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:58:13-40
+127-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:58:13-40
 128        <activity
-128-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:61:9-67:54
+128-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:61:9-67:54
 129            android:name="com.developersbeeh.medcontrol.notifications.EmergencyAlertActivity"
-129-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:62:13-94
+129-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:62:13-94
 130            android:exported="false"
-130-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:63:13-37
+130-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:63:13-37
 131            android:launchMode="singleTop"
-131-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:64:13-43
+131-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:64:13-43
 132            android:showOnLockScreen="true"
-132-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:65:13-44
+132-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:65:13-44
 133            android:theme="@style/Theme.niduscare"
-133-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:67:13-51
+133-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:67:13-51
 134            android:turnScreenOn="true" />
-134-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:66:13-40
+134-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:66:13-40
 135
 136        <receiver
-136-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:70:9-72:40
+136-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:70:9-72:40
 137            android:name="com.developersbeeh.medcontrol.notifications.NotificationBroadcastReceiver"
-137-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:70:19-107
+137-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:70:19-107
 138            android:enabled="true"
-138-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:71:13-35
+138-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:71:13-35
 139            android:exported="false" />
-139-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:72:13-37
+139-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:72:13-37
 140        <receiver
-140-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:74:9-76:40
+140-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:74:9-76:40
 141            android:name="com.developersbeeh.medcontrol.notifications.NotificationActionReceiver"
-141-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:74:19-104
+141-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:74:19-104
 142            android:enabled="true"
-142-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:75:13-35
+142-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:75:13-35
 143            android:exported="false" />
-143-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:76:13-37
+143-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:76:13-37
 144        <receiver
-144-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:78:9-80:40
+144-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:78:9-80:40
 145            android:name="com.developersbeeh.medcontrol.notifications.ReminderBroadcastReceiver"
-145-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:78:19-103
+145-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:78:19-103
 146            android:enabled="true"
-146-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:79:13-35
+146-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:79:13-35
 147            android:exported="false" />
-147-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:80:13-37
+147-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:80:13-37
 148        <receiver
-148-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:82:9-85:40
+148-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:82:9-85:40
 149            android:name="com.developersbeeh.medcontrol.notifications.MissedDoseFollowUpReceiver"
-149-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:83:13-98
+149-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:83:13-98
 150            android:enabled="true"
-150-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:84:13-35
+150-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:84:13-35
 151            android:exported="false" />
-151-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:85:13-37
+151-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:85:13-37
 152        <receiver
-152-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:87:9-95:20
+152-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:87:9-95:20
 153            android:name="com.developersbeeh.medcontrol.notifications.BootReceiver"
-153-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:88:13-84
+153-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:88:13-84
 154            android:enabled="true"
-154-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:89:13-35
+154-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:89:13-35
 155            android:exported="true" >
-155-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:90:13-36
+155-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:90:13-36
 156            <intent-filter>
-156-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:91:13-94:29
+156-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:91:13-94:29
 157                <action android:name="android.intent.action.BOOT_COMPLETED" />
-157-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:17-79
-157-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:25-76
+157-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:17-79
+157-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:25-76
 158                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-158-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:93:17-82
-158-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:93:25-79
+158-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:93:17-82
+158-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:93:25-79
 159            </intent-filter>
 160        </receiver>
 161
 162        <provider
-162-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:97:9-105:20
+162-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:97:9-105:20
 163            android:name="androidx.core.content.FileProvider"
-163-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:98:13-62
+163-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:98:13-62
 164            android:authorities="com.developersbeeh.medcontrol.provider"
-164-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:99:13-73
+164-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:99:13-73
 165            android:exported="false"
-165-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:100:13-37
+165-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:100:13-37
 166            android:grantUriPermissions="true" >
-166-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:101:13-47
+166-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:101:13-47
 167            <meta-data
-167-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:102:13-104:54
+167-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:102:13-104:54
 168                android:name="android.support.FILE_PROVIDER_PATHS"
-168-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:103:17-67
+168-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:103:17-67
 169                android:resource="@xml/file_paths" />
-169-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:104:17-51
+169-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:104:17-51
 170        </provider>
 171
 172        <meta-data
-172-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:107:9-109:69
+172-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:107:9-109:69
 173            android:name="com.google.android.gms.ads.APPLICATION_ID"
-173-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:108:13-69
+173-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:108:13-69
 174            android:value="ca-app-pub-4358133805258957~7652951933" />
-174-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:109:13-67
+174-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:109:13-67
 175
 176        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
 177        <activity
@@ -654,10 +654,10 @@
 345            android:exported="false" >
 345-->[com.google.firebase:firebase-messaging:25.0.1] /home/bruno/.gradle/caches/8.14.3/transforms/db9531727c146333f4875ec6d663bc6c/transformed/firebase-messaging-25.0.1/AndroidManifest.xml:49:13-37
 346            <intent-filter android:priority="-500" >
-346-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:33:13-35:29
+346-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:33:13-35:29
 347                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-347-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:17-78
-347-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:34:25-75
+347-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:17-78
+347-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:34:25-75
 348            </intent-filter>
 349        </service>
 350
@@ -993,8 +993,8 @@
 526            <intent-filter>
 526-->[androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:116:13-120:29
 527                <action android:name="android.intent.action.BOOT_COMPLETED" />
-527-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:17-79
-527-->/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/AndroidManifest.xml:92:25-76
+527-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:17-79
+527-->/home/bruno/AndroidStudioProjects/niduscare/app/src/main/AndroidManifest.xml:92:25-76
 528                <action android:name="android.intent.action.TIME_SET" />
 528-->[androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:118:17-73
 528-->[androidx.work:work-runtime:2.10.4] /home/bruno/.gradle/caches/8.14.3/transforms/9bd6a4c6151dcae2f3c6122dad3337ce/transformed/work-runtime-2.10.4/AndroidManifest.xml:118:25-70

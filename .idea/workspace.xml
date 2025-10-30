@@ -91,6 +91,11 @@
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="medcontrol.app" />
@@ -224,7 +229,39 @@
       <option name="project" value="LOCAL" />
       <updated>1761728042416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761728140389</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728140389</updated>
+    </task>
+    <task id="LOCAL-00008" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761728144181</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728144181</updated>
+    </task>
+    <task id="LOCAL-00009" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761728394285</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728394285</updated>
+    </task>
+    <task id="LOCAL-00010" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1761728418868</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761728418868</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

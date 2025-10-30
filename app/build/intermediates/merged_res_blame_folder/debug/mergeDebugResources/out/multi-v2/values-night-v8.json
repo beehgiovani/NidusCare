@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/bruno/AndroidStudioProjects/medcontrol/app/src/main/res/values-night/themes.xml",
+                    "source": "/home/bruno/AndroidStudioProjects/niduscare/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "3,72",
                         "startColumns": "4,4",
